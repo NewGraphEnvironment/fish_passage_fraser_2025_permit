@@ -1,0 +1,586 @@
+---
+title: "Scientific Fish Collection - Permit Application"
+author: "Al Irvine"
+output:
+  pagedown::html_letter:
+    self_contained: true
+    css: ["style-pagedown.css", "default", "letter"]
+links-to-footnotes: false
+paged-footnotes: false
+params:
+  repo_url: 'https://github.com/lucy-schick/fish_passage_peace_2025_permit'
+  report_url: 'https://lucy-schick.github.io/fish_passage_peace_2025_permit/'
+  gis_project_name: "sern_peace_fwcp_2023"
+  update_packages: FALSE
+bibliography: "`r rbbt::bbt_write_bib('references.bib', overwrite = TRUE)`"
+biblio-style: apalike
+link-citations: no
+  
+
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+![logo](fig/nge-full_black.png){.logo} 
+
+
+ 
+
+<br>
+
+::: from
+Al Irvine  
+New Graph Environment Ltd.  
+al@newgraphenvironment   
+250-777-1518  
+Date Original: 2025-07-15  
+Date Revised: `r format(Sys.Date(), "%Y-%m-%d")` 
+:::
+
+
+Ministry of Environment
+
+
+<br>
+
+```{r setup, include = TRUE, echo =FALSE, message=FALSE, warning=FALSE}
+# gitbook_on <- TRUE
+gitbook_on <- FALSE  ##we just need turn  this on and off to switch between gitbook and pdf via paged.js
+
+
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, dpi=60, out.width = "100%")
+options(scipen=999)
+options(knitr.kable.NA = '--') #'--'
+options(knitr.kable.NAN = '--')
+
+source('scripts/packages.R')
+source('scripts/staticimports.R')
+
+# use the repo_url to extract the project region and permit year
+project_region <- stringr::str_extract(params$repo_url, "(?<=fish_passage_)[^_]+")
+permit_year <- stringr::str_match(params$repo_url, "fish_passage_[^_]+_([0-9]{4})")[,2]
+
+# Build the link to the kml file
+link_kml <- fs::path(params$repo_url, '/blob/main/docs/', paste0("sites_", project_region, "_", permit_year, "_", format(Sys.Date(), '%Y%m%d'), "_kml.zip"))
+
+# Specific the target species likely to be tagged since we include so many. Varies from region to region and can be determined from
+# past data (if this is a multi-year project)
+target_species <- c("rainbow trout", "bull trout", "burbot")
+
+# This varies depending on the date the file was created
+gis_planning_file <- "planning_20250703.gpkg"
+
+
+```
+
+```{r settings-gitbook, eval= gitbook_on}
+photo_width <- "100%"
+font_set <- 11
+
+```
+
+```{r settings-paged-html, eval= identical(gitbook_on, FALSE)}
+photo_width <- "80%"
+font_set <- 8
+```
+
+
+**Re: Scientific Fish Collection Permit Application**
+
+<!-- Please note that permitting to Fisheries and Oceans Canada is requested for inventory purposes only.  PIT tagging is NOT proposed for salmon species. PIT tagging is proposed to the Provincial Ministry of Water, Land and Resource Stewardship (WLRS) for provincial jurisdiction species only to monitor fish movement and growth over multiple years.   -->
+
+
+```{r pdf-inputs, eval = FALSE}
+ # Our intention providing all information relevant for the study within the attached memo is to facilitate an understanding by all parties of what is happening and hopefully to provide the information necessary for permitting by both agencies. In the past - the memo provided has been attached as an appendix to the DFO permit issued.
+
+```
+
+<!-- <br> -->
+
+`r if (gitbook_on == FALSE) knitr::asis_output(paste0("This permit application can also be viewed online [at this link](", params$report_url, ")."))` A summary of sites proposed for assessment, including historic fish presence records from FISS, is provided in Tables \@ref(tab:tab-sites1) to \@ref(tab:tab-sites3). Fish species known to occur within each watershed are summarized in Table \@ref(tab:tab-fish). An overview map showing potential sample locations is presented in Figure \@ref(fig:map). A KML and GPX file of all sites is attached to the application and can also be downloaded [at this link](`r paste0(params$repo_url,"/tree/main/mapping")`). The KML includes detailed site-specific information accessible by clicking on each location, with brief summaries of background reports where available.
+
+<br>
+
+## Brief description of project/activities {-}
+This work is a multi-year collaboration of many groups and an initiative of the Society for Ecosystem Restoration Northern BC. Funding for the project is through the Fish and Wildlife Compensation Program and the Provincial Fish Passage Technical Working Group.  Fieldwork is being led by Al Irvine, R.P.Bio., of New Graph Environment Ltd., in collaboration with field and office teams from McLeod Lake Indian Band. Previous reports are provided below:
+
+- https://newgraphenvironment.github.io/Parsnip_Fish_Passage/
+- https://newgraphenvironment.github.io/fish_passage_parsnip_2021_reporting/
+- https://newgraphenvironment.github.io/fish_passage_peace_2022_reporting/
+- https://newgraphenvironment.github.io/fish_passage_peace_2023_reporting/
+- https://newgraphenvironment.github.io/fish_passage_peace_2024_reporting/
+
+<br>
+<br>
+<br>
+
+## Rationale for sampling {-}
+
+Rationale for sampling is to inform fish presence/absence, species composition/density, abundance estimates,  movement, growth, and survival as part of habitat confirmations and effectiveness monitoring related to fish passage restoration at barrier culverts.  Habitat confirmation methodology information can be referenced in the above reports which builds on the [Fish Passage Technical Working Group Phase 2 protocol](https://www2.gov.bc.ca/gov/content/environment/natural-resource-stewardship/land-based-investment/investment-categories/fish-passage). Presence/absence of fish, species composition/abundance, distribution limits and fish movement can be useful for prioritizing which crossings are a best fit for fish passage restoration and inform baseline as well as follow up effectiveness monitoring.  
+
+<br>
+
+## Methodologies {-}
+
+
+Sampling methodologies will be dependent on the site, fish species suspected, type of habitat encountered, risks to aquatic organisms potentially present (Table \@ref(tab:tab-mitigation)) and ongoing communications.  Sampling methods may include minnowtrapping, electrofishing, and dip netting upstream and downstream of current and past barrier culvert locations. 
+
+<br>
+
+Sampling is proposed at streams included in Tables \@ref(tab:tab-sites1) - \@ref(tab:tab-sites3) where we will be performing habitat confirmation assessments and follow up site visits related to past habitat confirmations/fish passage remediations.  
+
+<br>
+
+### PIT Tagging {-}
+
+As part of this permit application we are proposing tagging for provincial jurisdiction species only.  PIT tagging is not 
+proposed for salmon species. When time allows and tagging is expected to improve knowledge of a system, our study plan is to electrofish small sites both upstream and downstream of priority culvert "barrier" sites and implant [Biomark APT12 PIT tags](https://www.youtube.com/watch?v=9CKZ9yaS5o8) in the abdominal cavity of select fish over 60mm in fork length. To anesthetize fish prior to PIT tagging, we use a clove oil solution at 0.1mL/L (1:10,000), which provides effective sedation with minimal residual effects [@fernandes_etal2017efficacyclove]. The solution is prepared by dissolving clove oil in ethyl alcohol at a 1:9 ratio before mixing into water [@fernandes_etal2017efficacyclove]. Site location (UTM), fish length and weight will also be collected. In addition to providing information on abundance upstream and downstream of potential culvert restoration sites, the study will also provide information for monitoring programs to document fish movement, growth and survival at sites over multi-year time frames. Main objectives are to:
+
+  1. Determine if fish are moving into restored areas 
+  2. Determine if before any remediation is conducted - fish are moving through sites where stream crossing structures (culverts) likely cause connectivity issues  
+  3. Evaluate if productivity of the systems are increasing following bridge installation and/or if fish are moving upstream/downstream of where replaced/removed structures are located  
+
+<br>
+
+Dependent on how relevant tracking information would be to inform restoration actions, we may wish to tag select fish over 60mm in each site sampled.  We would like to apply for a permit allowing a maximum of 600 fish tagged with a maximum of 150 fish/stream.  Although we are requesting a maximum of 150 fish/stream, we have listed 150 fish of each species per stream because we will not know the species composition of the sites until the sampling occurs. In general, only salmonid and burbot species will be tagged with likely species present being `r knitr::combine_words(target_species)`. Based on past assessments in
+the same and similiar systems in the region, the number of fish tagged per stream are very likely to be much less than 150, however we are requesting the maximum number of fish to be tagged to facilitate permit application procedures and allow for flexibility in the field based on actual sampling results.
+
+<br>
+
+## Risks associated with project/activities and associated mitigation {-}
+
+```{r tab-mitigation}
+impacts_mitigation <- tribble(
+  ~Impact, ~Mitigation,
+  "High Voltage Injuries", "Use the minimum effective voltage.  Avoid contacting fish with the anode.  Avoid electrofishing directly adjacent to metal culverts.",
+  "Disruption of Spawning", "Avoid electrofishing during highest risk periods in likely spawning habitat.",
+  "Physical Stress on Fish", "Quick/gentle handling and release of captured fish.",
+  "Injury from PIT Tagging Surgeries", "Shallow insertion of tags and use of fresh sterile syringes every approximately 10 surgeries",
+  "Mortality in traps due to predation and starvation", "Ensure all traps set are retrieved within 24 hours."
+)
+
+fpr::fpr_kable(impacts_mitigation, caption_text = 'Risks and mitigation', scroll = FALSE)
+```
+
+<br>
+
+
+Please note that the sampling will be completed before October 31 (end of August till early October) however the end-date of the sampling period is listed as Dec 31 on the application to allow time outside of the busy field season for the data to be processed, QA'd and organized so that required reporting can be as informative as possible when submitted. An example of how we have been presenting results and methodologies from past assessments can be referenced in reports above.
+
+<br>
+
+Please do not hesitate to contact me if you need more information or have any questions or concerns.
+
+
+
+<!-- ![signature](/Users/airvine/Library/CloudStorage/OneDrive-Personal/Admin/Al_Sig.jpg){width=50%} -->
+Al Irvine, R.P.Bio 
+
+```{r pull-db}
+
+# Identify the sites from previous years that we will be returning to again.
+site_review_ids <- c(
+  #arctic
+  125000, 
+  #fern
+  125261, 
+  # table 21k
+  125231,
+  #missinka remediated
+  125179,
+  ##missinka reference
+  125180,
+  ##trib to Kerry Lake where BCTS is deactivating.  Good flow
+  198692,
+  ##trib to McLeod with large outlet, ok flow and decent looking habitat. On reserve and close to community
+  198668,
+  ##trib to McLeod Lake right at the store and walking distance from community.  
+  ## good site for sampling to get people interested
+  #large outlet drop, ok flow and decent looking habitat. On reserve
+  198667
+  )
+
+
+# grab the crossings data from bcfishpass
+sites_for_review <- fpr::fpr_db_query(
+  glue::glue(
+    "SELECT * FROM bcfishpass.crossings_vw 
+     WHERE stream_crossing_id IN ({glue::glue_collapse(site_review_ids, sep = ', ')})"
+  )
+) |> 
+  # Need to change data type so we can bind rows with `sites_planning_raw`
+  dplyr::mutate(user_barrier_anthropogenic_id = as.integer(user_barrier_anthropogenic_id),
+                wscode = as.character(wscode),
+                localcode = as.character(localcode)) |> 
+  sf::st_zm()
+
+
+
+
+# Grab all the new sites that we have identified in the planning file
+path_gis_planning <- fs::path("~/Projects/gis/", params$gis_project_name, gis_planning_file)
+
+sites_planning_raw <- fpr::fpr_sp_gpkg_backup(
+  path_gpkg = path_gis_planning,
+  update_utm = TRUE,
+  write_back_to_path = FALSE,
+  write_to_csv = TRUE,
+  write_to_rdata = TRUE,
+  return_object = TRUE)
+
+# Grab only the sites with my_priority = mod or high
+sites_planning <- sites_planning_raw |> 
+  dplyr::filter(my_priority %in% c("mod", "high"))
+
+
+
+
+# join the review and planning sites together
+sites_all <- dplyr::bind_rows(
+  sites_planning,
+  sites_for_review) |> 
+  dplyr::mutate(my_crossing_reference = dplyr::case_when(!is.na(stream_crossing_id) ~ stream_crossing_id,
+                                                  TRUE ~ modelled_crossing_id),
+                my_crossing_reference = as.character(my_crossing_reference))
+
+
+
+
+# Use the modelled_crossing_id to grab the 1 to 50k watershed codes
+ids <- sites_all |>
+  # Remove the 3 crossings that are missing `modelled_crossing_id`
+  dplyr::filter(!is.na(modelled_crossing_id)) |> 
+  dplyr::pull(modelled_crossing_id)
+
+
+# grab the watershed codes
+wscodes <- fpr::fpr_db_query(
+  query = glue::glue("SELECT DISTINCT ON (modelled_crossing_id)
+    a.modelled_crossing_id,
+    a.linear_feature_id,
+    a.watershed_group_code,
+    b.watershed_code_50k,
+    substring(b.watershed_code_50k from 1 for 3)
+    || '-' || substring(b.watershed_code_50k from 4 for 6)
+    || '-' || substring(b.watershed_code_50k from 10 for 5)
+    || '-' || substring(b.watershed_code_50k from 15 for 5)
+    || '-' || substring(b.watershed_code_50k from 20 for 4)
+    || '-' || substring(b.watershed_code_50k from 24 for 4)
+    || '-' || substring(b.watershed_code_50k from 28 for 3)
+    || '-' || substring(b.watershed_code_50k from 31 for 3)
+    || '-' || substring(b.watershed_code_50k from 34 for 3)
+    || '-' || substring(b.watershed_code_50k from 37 for 3)
+    || '-' || substring(b.watershed_code_50k from 40 for 3)
+    || '-' || substring(b.watershed_code_50k from 43 for 3) AS watershed_code_50k_parsed,
+    b.blue_line_key_20k,
+    b.watershed_key_20k,
+    b.blue_line_key_50k,
+    b.watershed_key_50k,
+    b.match_type
+    FROM bcfishpass.crossings_vw a
+    LEFT OUTER JOIN whse_basemapping.fwa_streams_20k_50k b
+    ON a.linear_feature_id = b.linear_feature_id_20k
+    WHERE a.modelled_crossing_id IN ({glue::glue_collapse(glue::single_quote(ids), sep = ', ')})
+    ORDER BY a.modelled_crossing_id, b.match_type;"
+  ) 
+)
+
+
+```
+
+```{r table-build}
+
+# make a table with the watershed codes, stream name, fish species
+table_sites <- dplyr::left_join(
+
+  sites_all |> 
+    dplyr::select(id = my_crossing_reference,
+         modelled_crossing_id,
+         bt_network_km,
+         bt_spawning_km,
+         bt_rearing_km,
+         utm_zone,
+         utm_easting,
+         utm_northing,
+         mapsheet = dbm_mof_50k_grid,
+         watershed_group_code,
+         pscis_assessment_comment,
+         gnis_stream_name, 
+         stream_name = pscis_stream_name, 
+         observedspp_upstr,
+         my_priority,
+         my_priority_comments),
+
+  wscodes |> 
+    dplyr::select(modelled_crossing_id, wsc_code = watershed_code_50k_parsed),
+
+  by = 'modelled_crossing_id'
+) |>  
+  # add the 3 missing watershed codes for the crossings that didn't have `modelled_crossing_id`
+  dplyr::mutate(wsc_code = dplyr::case_when(id == 125000 ~ "236-738000-00000-00000-0000-0000-000-000-000-000-000-000",
+                                            id == 7819 ~ "230-870800-11500-24500-0000-0000-000-000-000-000-000-000",
+                                            id == 7827 ~ "230-870800-00000-00000-0000-0000-000-000-000-000-000-000",
+                                            T ~ wsc_code)) |> 
+
+   # do some clean up and wrangle
+  dplyr::mutate(dplyr::across(dplyr::starts_with('bt_'), ~round(., 1))) |> 
+  dplyr::arrange(id) |>  
+  dplyr::mutate(stream_name = dplyr::case_when(is.na(stream_name) ~ gnis_stream_name,
+                                                T ~ stream_name),
+                stream_name = stringr::str_to_title(stream_name)) |> 
+  dplyr::select(-c("gnis_stream_name", "modelled_crossing_id")) |> 
+  sf::st_transform(crs = 4326) |> 
+  fpr::fpr_sp_assign_latlong(col_lon = "long") 
+```
+
+```{r burn-csv, eval = T}
+table_sites |> 
+  readr::write_csv(paste0("data/sites_", project_region, "_", permit_year, ".csv"))
+
+```
+
+```{r print-wsc-console, eval=FALSE}
+
+# here we produce a minimal table to copy paste in the DFO pdf
+formatted_output <- table_sites |> 
+  sf::st_drop_geometry() |> 
+  dplyr::select(id, stream_name, wsc_code) |> 
+  dplyr::mutate(
+    max_id_width = max(nchar(id)),
+    max_name_width = max(nchar(stream_name), na.rm = TRUE)
+  ) |> 
+  dplyr::mutate(
+    id = stringr::str_pad(id, max_id_width, side = "right"),
+    stream_name = stringr::str_pad(stream_name, max_name_width, side = "right")
+  ) |>
+  dplyr::select(-max_id_width, -max_name_width) %>%  # Drop the max_* columns
+  {
+    # Apply the same padding to the column headers
+    headers <- c(
+      stringr::str_pad("id", max(nchar(.$id)), side = "right"),
+      stringr::str_pad("stream_name", max(nchar(.$stream_name)), side = "right"),
+      "wsc_code"  # Assuming wsc_code doesn't need padding, otherwise calculate it similarly
+    )
+    
+    # Combine the header and the data
+    headers <- paste(headers, collapse = "\t")
+    formatted_rows <- pmap_chr(., ~ paste(..., collapse = "\t"))
+    
+    paste(c(headers, formatted_rows), collapse = "\n")
+  }
+
+# Print the formatted table with aligned headers using cat
+cat(formatted_output)
+
+
+```
+
+```{r print-sa-console}
+# we also need a list of salmon species to copy paste into the DFO pdf.  I think it is only CH
+```
+
+
+```{r gpx}
+
+dir.create('mapping')
+
+# Build the gpx file name with today's date
+today_date <- format(Sys.Date(), "%Y%m%d")
+prefix <- paste0("sites_", project_region, "_", permit_year, "_")
+path_gps <- paste0(prefix, today_date, ".gpx")
+
+# Delete old gpx files that are not today's file
+gpx_files <- fs::dir_ls("mapping", regexp = paste0("^mapping/", prefix, ".*\\.gpx$"))
+
+files_to_delete <- gpx_files[!fs::path_file(gpx_files) %in% path_gps]
+fs::file_delete(files_to_delete)
+
+
+# make a gpx file for loading into the gps
+table_sites |> 
+  dplyr::mutate(desc = paste0("bt_rearing - ", bt_rearing_km, "km. ", my_priority_comments),
+         # make a name that tells a story so we see it on the gps
+         name = paste0(id, " - ", my_priority)) |> 
+  # drop z dimension
+  # st_zm() |> 
+  dplyr::distinct(id, .keep_all = T) |>
+  dplyr::rename(geometry = geom) |> 
+  dplyr::select(name, desc, geometry) |> 
+  sf::st_transform(crs = 4326) |> 
+  sf::write_sf(dsn = paste0("mapping/", path_gps), driver="GPX",
+           dataset_options="GPX_USE_EXTENSIONS=yes", delete_dsn = TRUE)
+
+```
+
+```{r kml}
+##make a kml for adding to the georef pdf and sharing with stakeholders
+
+
+# Delete old kml files that are not today's file
+path_kml <- paste0(prefix, today_date, ".kml")
+kml_files <- fs::dir_ls("mapping", regexp = paste0("^mapping/", prefix, ".*\\.kml$"))
+files_to_delete <- kml_files[!fs::path_file(kml_files) %in% path_kml]
+fs::file_delete(files_to_delete)
+
+# Write today's KML file
+table_sites |> 
+  dplyr::mutate(name = paste0(id, " - ", my_priority)) |> 
+  sf::st_write(
+    dsn = paste0("mapping/", path_kml),
+    delete_dsn = TRUE,
+    quiet = TRUE
+  )
+
+# # Zip up all remaining KMLs (should just be today's file)
+# files_to_zip <- paste0("mapping/", list.files(path = "mapping/", pattern = "\\.kml$"))
+# zip::zipr(
+#   zipfile = paste0("docs/", prefix, today_date, "_kml.zip"),
+#   files = files_to_zip
+# )
+
+
+```
+
+
+<div class="page-break"></div>
+
+
+
+```{r map, fig.cap= 'Location of potential sample sites.', eval = T}
+
+# set a buffer for the area of interest
+aoi_buffer <- 0.05
+
+
+ggmap::register_google(key = Sys.getenv('GOOG_API_KEY'))
+
+#define the area of the base map by using a bounding box 
+mybasemap <- ggmap::get_map(location = c(left = table_sites |> pull(long) |> min()-aoi_buffer, 
+                                    bottom = table_sites |> pull(lat) |> min()-aoi_buffer,
+                                    right = table_sites |> pull(long) |> max()+aoi_buffer,
+                                    top = table_sites |> pull(lat) |> max()+aoi_buffer),
+                     source = "google",
+                     zoom = 7,
+                    maptype = "roadmap")
+
+
+
+#define the area of the base map by using the middle. 
+# mybasemap <- ggmap::get_map(location = c(lon = table_sites |> pull(long) |> mean(),
+#                                          lat = table_sites |> pull(lat) |> mean())
+#                             source = "google",
+#                             zoom = "auto",
+#                             maptype = "hybrid")
+
+mymap <- ggmap::ggmap(mybasemap) + 
+  geom_point(data = table_sites , 
+             aes(x = long, y = lat,
+                 color = 'red'),
+             show.legend = F) +
+#   ggplot2::geom_text(data = table_sites,
+#                             aes(x = long,
+#                                 y = lat,
+#                                 label = id),
+#                      # color = 'white',
+#                       size = 2,
+#                       hjust = -0.5, colour = "black"
+# ) + 
+  ggrepel::geom_label_repel(
+    # wrangle for more informative "label" but not used as too much detail for map
+    data = table_sites |> 
+               dplyr::mutate(label = paste(id, stream_name, sep = " - ")),
+                            aes(x = long, y = lat, label = id),
+                                box.padding = 0.5, 
+                            point.padding = 0.1,
+                            max.overlaps = 30,
+               size = 2.5
+                            ) 
+  # ggsflabel::geom_sf_label(data = table_sites,
+  #                          aes(x = long, y = lat, label = id),
+  #                          # force = 100,
+  #                          nudge_x = -2)
+
+mymap
+```
+
+<div class="page-break"></div>
+
+
+
+```{r tab-sites1, eval = T}
+# build a table with overall details
+# there is something wrong with kableextra that is causing issues with the col_width_min function
+# this works but any changes (increase number, add columns etc. breaks it)
+
+table_sites |> 
+  # filter(id %in% sites_tagging) |> 
+  sf::st_drop_geometry() |> 
+  dplyr::arrange(id) |> 
+  dplyr::select(`Site ID` = id,
+                `Stream Name` = stream_name, 
+                `Watershed Code` = wsc_code, 
+                `UTM Zone` = utm_zone, 
+                `UTM Easting` = utm_easting, 
+                `UTM Northing` = utm_northing, 
+                `Watershed Group Code` = watershed_group_code) |> 
+  fpr::fpr_kable(caption_text = 'Potential sampling locations.', scroll = FALSE)
+
+  # fpr::fpr_kable(caption_text = 'Potential sample locations.', 
+  #                footnote_text = '*Up to 6 sites to be sampled with max 150 fish tagged at each site',
+  #                # col_width_min = 6,
+  #                scroll = F) 
+  # knitr::kable(caption = 'Potential sample locations.', booktabs = T) |>
+  # # kableExtra::kable_styling(c("condensed"),
+  # #                           full_width = T,
+  # #                           font_size = font_set) |>
+  # # kableExtra::column_spec(column = c(3,4,7), width_min = '1.0in') |>
+  # kableExtra::column_spec(column = c(7), width_max = '2.0in')
+```
+
+
+<div class="page-break"></div>
+
+
+```{r tab-sites3, eval = T}
+# build a table with overall details
+
+# there is something wrong with kableextra that is causing issues with the col_width_min function
+# this works but any changes (increase number, add columns etc. breaks it)
+
+table_sites |> 
+  sf::st_drop_geometry() |> 
+  dplyr::arrange(id) |> 
+  dplyr::mutate(fish_tags = 150) |> 
+  dplyr::select(`Site ID` = id,
+                `Stream Name` = stream_name,
+                `Species Upstream` = observedspp_upstr,
+                `# Fish Tags` = fish_tags) |> 
+  # filter(id %in% sites_tagging) |> 
+  fpr::fpr_kable(caption_text = 'Potential sample site details', scroll = FALSE)
+  # fpr::fpr_kable(caption_text = 'Potential sample locations.', 
+  #                footnote_text = '*Up to 6 sites to be sampled with max 150 fish tagged at each site',
+  #                # col_width_min = 6,
+  #                scroll = F) 
+  # knitr::kable(caption = 'Potential sample locations.', booktabs = T) |>
+  # # kableExtra::kable_styling(c("condensed"),
+  # #                           full_width = T,
+  # #                           font_size = font_set) |>
+  # # kableExtra::column_spec(column = c(3,4,7), width_min = '1.0in') |>
+  # kableExtra::column_spec(column = c(7), width_max = '2.0in')
+```
+
+
+<br>
+
+
+```{r tab-fish}
+tab_fish <- readr::read_csv('data/fiss_species_table.csv')
+
+tab_fish |> 
+  fpr::fpr_kable(caption_text = 'Fish species recorded in the Fisheries Information Summary System within the freshwater atlas watershed group areas where the potential sample sites are located.', scroll = FALSE, font_size = 8)
+
+```
+
+<br>
+
+# References {.unnumbered}

@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="sites_peace_2025_20250721" id="sites_peace_2025_20250721">
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="bt_network_km" type="float"></SimpleField>
+	<SimpleField name="bt_spawning_km" type="float"></SimpleField>
+	<SimpleField name="bt_rearing_km" type="float"></SimpleField>
+	<SimpleField name="utm_zone" type="float"></SimpleField>
+	<SimpleField name="utm_easting" type="int"></SimpleField>
+	<SimpleField name="utm_northing" type="int"></SimpleField>
+	<SimpleField name="mapsheet" type="string"></SimpleField>
+	<SimpleField name="watershed_group_code" type="string"></SimpleField>
+	<SimpleField name="pscis_assessment_comment" type="string"></SimpleField>
+	<SimpleField name="stream_name" type="string"></SimpleField>
+	<SimpleField name="observedspp_upstr" type="string"></SimpleField>
+	<SimpleField name="my_priority" type="string"></SimpleField>
+	<SimpleField name="my_priority_comments" type="string"></SimpleField>
+	<SimpleField name="wsc_code" type="string"></SimpleField>
+	<SimpleField name="long" type="float"></SimpleField>
+	<SimpleField name="lat" type="float"></SimpleField>
+</Schema>
+<Folder><name>sites_peace_2025_20250721</name>
+  <Placemark>
+	<name>125000 - NA</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">125000</SimpleData>
+		<SimpleData name="bt_network_km">13.4</SimpleData>
+		<SimpleData name="bt_spawning_km">2.3</SimpleData>
+		<SimpleData name="bt_rearing_km">5</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">577541</SimpleData>
+		<SimpleData name="utm_northing">6038215</SimpleData>
+		<SimpleData name="mapsheet">093I.111</SimpleData>
+		<SimpleData name="watershed_group_code">PARS</SimpleData>
+		<SimpleData name="pscis_assessment_comment">High priority candidate for restoration. Good habitat.  Surveyed upstream continuosly for 350 m to beaver influenced wetland area where walking became difficult.  Then stream was visited again upstream at 1.6 km upstream from crossing then again at approximately 2.5 km upstream of crossing.  Undercut banks provide areas of deep cover ad Large woody debris is scattered througout. Overhanging vegetationalso provides cover througout.  Pools observed were somewhat shallow but were preseetevery 20 - 30 m or so.  Minnowtrapping conducted upstream and downstream of crossing.  Electrofishing conducted downstream of the crossing.  No fish captured upstream of the culvert. First beaver dam located approximately 330m upstream of the culvert.</SimpleData>
+		<SimpleData name="stream_name">Tributary To Parsnip River</SimpleData>
+		<SimpleData name="wsc_code">236-738000-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-121.803063353279</SimpleData>
+		<SimpleData name="lat">54.4856321678425</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-121.803063353279,54.4856321678425</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>125179 - NA</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">125179</SimpleData>
+		<SimpleData name="bt_network_km">2.6</SimpleData>
+		<SimpleData name="bt_spawning_km">0</SimpleData>
+		<SimpleData name="bt_rearing_km">0.9</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">570307</SimpleData>
+		<SimpleData name="utm_northing">6052836</SimpleData>
+		<SimpleData name="mapsheet">093I.116</SimpleData>
+		<SimpleData name="watershed_group_code">PARS</SimpleData>
+		<SimpleData name="pscis_assessment_comment">High priority candidate for restoration with habitat for rearing and overwintering upstream.  Surveyed upstream for 520 m with no barriers to fish passage present.  Bull trout and rainbow recorded upstream. Some deep pools for overwintering and rearing.  Large woody debris and undercut banks throughout. Sections of gravel suitable for spawning.  Good flow.  Surveyed downstream for 360 m. No barriers observed and none likely downstream of surveyed section due to gradients.  Abundant large woody debris and gravels suitable for spawning.</SimpleData>
+		<SimpleData name="stream_name">Unnamed Tributary To Missinka River</SimpleData>
+		<SimpleData name="observedspp_upstr">BT;RB</SimpleData>
+		<SimpleData name="wsc_code">236-614900-20900-03300-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-121.911202637054</SimpleData>
+		<SimpleData name="lat">54.6180646183997</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-121.911202637054,54.6180646183997</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>125180 - NA</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">125180</SimpleData>
+		<SimpleData name="bt_network_km">3.8</SimpleData>
+		<SimpleData name="bt_spawning_km">0</SimpleData>
+		<SimpleData name="bt_rearing_km">1.3</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">569665</SimpleData>
+		<SimpleData name="utm_northing">6053046</SimpleData>
+		<SimpleData name="mapsheet">093I.116</SimpleData>
+		<SimpleData name="watershed_group_code">PARS</SimpleData>
+		<SimpleData name="pscis_assessment_comment">Two pipes each at 1.2m in diameter, with one showing an inlet drop. Both pipes are embedded, except for 1 m at the inlet of one pipe, allowing them to function as embedded culverts, resulting in a low priority for replacement. The habitat is high quality, featuring deep pools and gravels. Rainbow trout ranging from 40-140 mm were captured during sampling.. 12:26:48</SimpleData>
+		<SimpleData name="stream_name">Tributary To Missinka River</SimpleData>
+		<SimpleData name="observedspp_upstr">RB</SimpleData>
+		<SimpleData name="wsc_code">236-614900-20900-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-121.921103757878</SimpleData>
+		<SimpleData name="lat">54.6200425439349</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-121.921103757878,54.6200425439349</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>125231 - NA</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">125231</SimpleData>
+		<SimpleData name="bt_network_km">3.4</SimpleData>
+		<SimpleData name="bt_spawning_km">0.1</SimpleData>
+		<SimpleData name="bt_rearing_km">0.4</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">549962</SimpleData>
+		<SimpleData name="utm_northing">6065137</SimpleData>
+		<SimpleData name="mapsheet">093J.120</SimpleData>
+		<SimpleData name="watershed_group_code">PARS</SimpleData>
+		<SimpleData name="pscis_assessment_comment">Culvert replaced with Bridge by C4 in the summer of 2024 with environmental oversight and engineering from DWB. Very nicely designed structure that fits the stream channel well. Minimal rock placement within areas likely to be within the natural channel with not constricting the channel. It is recommended that future projects incorporate vegetated riprap and reinstall the vegetation removed from the construction footprint within the same area.. 15:35:51</SimpleData>
+		<SimpleData name="stream_name">Tributary To Table River</SimpleData>
+		<SimpleData name="observedspp_upstr">RB</SimpleData>
+		<SimpleData name="wsc_code">236-450800-15400-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-122.224138873254</SimpleData>
+		<SimpleData name="lat">54.7310207178196</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.224138873254,54.7310207178196</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>125261 - NA</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">125261</SimpleData>
+		<SimpleData name="bt_network_km">48.3</SimpleData>
+		<SimpleData name="bt_spawning_km">4.3</SimpleData>
+		<SimpleData name="bt_rearing_km">14.4</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">534601</SimpleData>
+		<SimpleData name="utm_northing">6067771</SimpleData>
+		<SimpleData name="mapsheet">093J.119</SimpleData>
+		<SimpleData name="watershed_group_code">PARS</SimpleData>
+		<SimpleData name="pscis_assessment_comment">Reassessed as part of a baseline assessment before hopeful future replacement. Fish sampling was conducted in a 75-meter stretch downstream and a 50-meter stretch upstream of the culvert, and fish 60 mm or greater were tagged with PIT tags. There are baffles made of metal in the culvert and ¬æ of the pipe is embedded with streambed material. The outlet of the pipe sits on a large pile of rip rap creating a 30 cm cascade that occurs approximately a meter after the outlet of the pipe.  There are two overflow pipes each at 0.9 m in diameter.        . 15:58:48</SimpleData>
+		<SimpleData name="stream_name">Fern Creek</SimpleData>
+		<SimpleData name="observedspp_upstr">BB;C;CBC;DC;DV;LSU;RB;RSC;SU</SimpleData>
+		<SimpleData name="wsc_code">236-358400-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-122.462352041432</SimpleData>
+		<SimpleData name="lat">54.7559879196144</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.462352041432,54.7559879196144</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>125749 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">125749</SimpleData>
+		<SimpleData name="bt_network_km">24.4</SimpleData>
+		<SimpleData name="bt_spawning_km">2.2</SimpleData>
+		<SimpleData name="bt_rearing_km">8.3</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">374238</SimpleData>
+		<SimpleData name="utm_northing">6102796</SimpleData>
+		<SimpleData name="mapsheet">093N.103</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="pscis_assessment_comment">RB observed u/s. Rhab - G, Shab - G, Ohab - G. Outlet blocked by 200kg boulders apparently to prevent scour. Silt fences placed at road crown do not function - road surface erodes to stream.</SimpleData>
+		<SimpleData name="stream_name">Unnamed Tributary To Airline Creek</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">Assessed in 2013, see comments.  RB observed us during assessement.  Downstream is primarily wetland and lakes. 8km of BT rearing habitat modelled upstream, and two other CBS ranked as Barrier and potential barrier.</SimpleData>
+		<SimpleData name="wsc_code">237-625800-53700-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-124.968881690114</SimpleData>
+		<SimpleData name="lat">55.0560148142686</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-124.968881690114,55.0560148142686</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>125755 - high</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">125755</SimpleData>
+		<SimpleData name="bt_network_km">72.8</SimpleData>
+		<SimpleData name="bt_spawning_km">6.5</SimpleData>
+		<SimpleData name="bt_rearing_km">22.4</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">359563</SimpleData>
+		<SimpleData name="utm_northing">6116606</SimpleData>
+		<SimpleData name="mapsheet">093N.102</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="pscis_assessment_comment">RB observed throughout. Pipe with baffles. Rhab - G, Shab - L, Ohab - G. Documented BB, RB, CSU, LSU, NSC, RSC.</SimpleData>
+		<SimpleData name="stream_name">Glaucers Creek</SimpleData>
+		<SimpleData name="observedspp_upstr">BB;CC;CSU;LSU;NSC;RB;RB/CT;RSC;SP;SU</SimpleData>
+		<SimpleData name="my_priority">high</SimpleData>
+		<SimpleData name="my_priority_comments">Baffles in the culvert. BB;CC;CSU;LSU;NSC;RB;RB/CT;RSC;SP;SU documented upstream.  Several lakes upstream, with no other CBS blocking acess to lakes. </SimpleData>
+		<SimpleData name="wsc_code">237-671800-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-125.205265104493</SimpleData>
+		<SimpleData name="lat">55.1760881294103</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-125.205265104493,55.1760881294103</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>125825 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">125825</SimpleData>
+		<SimpleData name="bt_network_km">165.7</SimpleData>
+		<SimpleData name="bt_spawning_km">12.2</SimpleData>
+		<SimpleData name="bt_rearing_km">50.3</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">355055</SimpleData>
+		<SimpleData name="utm_northing">6122848</SimpleData>
+		<SimpleData name="mapsheet">093N.107</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="pscis_assessment_comment">Rhab - G, Shab -G, Ohab - G. Large stream. Documented BB, BT, LT, LW, MW, PW, RB, CAS, CSU, LSU, RSC.</SimpleData>
+		<SimpleData name="stream_name">Purvis Creek</SimpleData>
+		<SimpleData name="observedspp_upstr">BB;BT;CAS;CSU;LKC;LSU;LT;LW;MW;PW;RB;RSC;SU</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">100% backwatered at time of assessment in 2013.  BT documented upstream. 50 km of bt rearing habitat modelled upstream. CBS located upstream ranked as passable.  </SimpleData>
+		<SimpleData name="wsc_code">237-673200-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-125.279185270696</SimpleData>
+		<SimpleData name="lat">55.2308362938431</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-125.279185270696,55.2308362938431</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>15200034 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">15200034</SimpleData>
+		<SimpleData name="bt_network_km">9</SimpleData>
+		<SimpleData name="bt_spawning_km">4.6</SimpleData>
+		<SimpleData name="bt_rearing_km">6</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">357257</SimpleData>
+		<SimpleData name="utm_northing">6160917</SimpleData>
+		<SimpleData name="mapsheet">093N.112</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">Trib to Kwanika Creek.  6km of BT rearing habitat modelled upstream,  with no other CBS upstream.  No fish documented in stream. </SimpleData>
+		<SimpleData name="wsc_code">237-792500-61000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-125.26406772593</SimpleData>
+		<SimpleData name="lat">55.5732943122839</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-125.26406772593,55.5732943122839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>15200337 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">15200337</SimpleData>
+		<SimpleData name="bt_network_km">69.3</SimpleData>
+		<SimpleData name="bt_spawning_km">15</SimpleData>
+		<SimpleData name="bt_rearing_km">30</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">406967</SimpleData>
+		<SimpleData name="utm_northing">6138657</SimpleData>
+		<SimpleData name="mapsheet">093N.109</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="stream_name">Moosmoos Creek</SimpleData>
+		<SimpleData name="observedspp_upstr">BB;BT;CCG;RB;SP</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">BT captured us of the crossing in 2000. Unsure if this is actaully a crossing, should confirm. </SimpleData>
+		<SimpleData name="wsc_code">237-528900-48700-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-124.468519053124</SimpleData>
+		<SimpleData name="lat">55.3853640395165</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-124.468519053124,55.3853640395165</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>15200384 - high</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">15200384</SimpleData>
+		<SimpleData name="bt_network_km">16.7</SimpleData>
+		<SimpleData name="bt_spawning_km">3.6</SimpleData>
+		<SimpleData name="bt_rearing_km">4.6</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">403312</SimpleData>
+		<SimpleData name="utm_northing">6145393</SimpleData>
+		<SimpleData name="mapsheet">093N.114</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="my_priority">high</SimpleData>
+		<SimpleData name="my_priority_comments">Trib to Gillis Creek which has several documented BT observations.  4km of BT rearing habitat upstream and no other crossings. Looks like nice wetland habitat in aerial imagery. </SimpleData>
+		<SimpleData name="wsc_code">237-528900-57600-16500-2290-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-124.528527008854</SimpleData>
+		<SimpleData name="lat">55.4451645611545</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-124.528527008854,55.4451645611545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>15200412 - high</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">15200412</SimpleData>
+		<SimpleData name="bt_network_km">35.5</SimpleData>
+		<SimpleData name="bt_spawning_km">9.7</SimpleData>
+		<SimpleData name="bt_rearing_km">12.1</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">400259</SimpleData>
+		<SimpleData name="utm_northing">6152248</SimpleData>
+		<SimpleData name="mapsheet">093N.114</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="stream_name">Gillis Creek</SimpleData>
+		<SimpleData name="my_priority">high</SimpleData>
+		<SimpleData name="my_priority_comments">BT captured dosntream in 2000s.  12km of BT rearing habitat upstream with only 1 other potential CBS located at the very top of the watershed/study area boundary. BT documented in nearby tribs.  Would be good to check out the crossings on the tribs south of this crossing as well. </SimpleData>
+		<SimpleData name="wsc_code">237-528900-57600-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-124.579232457477</SimpleData>
+		<SimpleData name="lat">55.5061269157951</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-124.579232457477,55.5061269157951</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>15200939 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">15200939</SimpleData>
+		<SimpleData name="bt_network_km">65.4</SimpleData>
+		<SimpleData name="bt_spawning_km">13.5</SimpleData>
+		<SimpleData name="bt_rearing_km">21.2</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">325553</SimpleData>
+		<SimpleData name="utm_northing">6152065</SimpleData>
+		<SimpleData name="mapsheet">093N.111</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="stream_name">Nation River</SimpleData>
+		<SimpleData name="observedspp_upstr">RB</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">Upper end of Nation River mainstem. RB documented us. </SimpleData>
+		<SimpleData name="wsc_code">237-000000-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-125.760752416334</SimpleData>
+		<SimpleData name="lat">55.4835356394429</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-125.760752416334,55.4835356394429</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>15200985 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">15200985</SimpleData>
+		<SimpleData name="bt_network_km">30.6</SimpleData>
+		<SimpleData name="bt_spawning_km">3.7</SimpleData>
+		<SimpleData name="bt_rearing_km">9</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">458491</SimpleData>
+		<SimpleData name="utm_northing">6137652</SimpleData>
+		<SimpleData name="mapsheet">093O.106</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">Close to Nation RIver.  9km of BT rearing us, and not many other crossings. </SimpleData>
+		<SimpleData name="wsc_code">237-077300-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.655164054597</SimpleData>
+		<SimpleData name="lat">55.383395948618</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.655164054597,55.383395948618</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>15201007 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">15201007</SimpleData>
+		<SimpleData name="bt_network_km">15.9</SimpleData>
+		<SimpleData name="bt_spawning_km">0.8</SimpleData>
+		<SimpleData name="bt_rearing_km">4.1</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">459777</SimpleData>
+		<SimpleData name="utm_northing">6140085</SimpleData>
+		<SimpleData name="mapsheet">093O.111</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="observedspp_upstr">RB</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">RB observation and culvert documented ~100m upstream.  Close to Nation River.</SimpleData>
+		<SimpleData name="wsc_code">237-062300-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.635218270105</SimpleData>
+		<SimpleData name="lat">55.4053641582858</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.635218270105,55.4053641582858</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>15201341 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">15201341</SimpleData>
+		<SimpleData name="bt_network_km">30.4</SimpleData>
+		<SimpleData name="bt_spawning_km">3.3</SimpleData>
+		<SimpleData name="bt_rearing_km">11.1</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">408422</SimpleData>
+		<SimpleData name="utm_northing">6121011</SimpleData>
+		<SimpleData name="mapsheet">093N.109</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">11km of BT rearing habitat modelled upstream and no other CBS located upstream.  RB documented downstream. </SimpleData>
+		<SimpleData name="wsc_code">237-449000-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-124.4398064476</SimpleData>
+		<SimpleData name="lat">55.2271216486237</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-124.4398064476,55.2271216486237</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>15201343 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">15201343</SimpleData>
+		<SimpleData name="bt_network_km">39.5</SimpleData>
+		<SimpleData name="bt_spawning_km">9.1</SimpleData>
+		<SimpleData name="bt_rearing_km">13.4</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">417680</SimpleData>
+		<SimpleData name="utm_northing">6121619</SimpleData>
+		<SimpleData name="mapsheet">093N.110</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="observedspp_upstr">CCG;LKC;RB;SP</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">CCG;LKC;RB;SP documented upstream.  13km of BT rearing habtitat modelled upstream,  with no other CBS based on aerial imagery.  Some wetland area upstream. </SimpleData>
+		<SimpleData name="wsc_code">237-393200-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-124.294473618092</SimpleData>
+		<SimpleData name="lat">55.2342137908478</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-124.294473618092,55.2342137908478</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>15201576 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">15201576</SimpleData>
+		<SimpleData name="bt_network_km">20.9</SimpleData>
+		<SimpleData name="bt_spawning_km">9.1</SimpleData>
+		<SimpleData name="bt_rearing_km">10.4</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">429809</SimpleData>
+		<SimpleData name="utm_northing">6124738</SimpleData>
+		<SimpleData name="mapsheet">093N.110</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">Likely no crossing present but unable to confirm with aerial imagery. Trib to Sylvester Creek which has BT documented, and also not far upstream from the Sylvester/Nation confluence.  10km of BT rearing habitat modelled upstream, with only 1 other CBS upstream. Worth assessing this CBS as well,  on Thut FSR.</SimpleData>
+		<SimpleData name="wsc_code">237-331000-04000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-124.104571279827</SimpleData>
+		<SimpleData name="lat">55.2641107187885</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-124.104571279827,55.2641107187885</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>15201728 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">15201728</SimpleData>
+		<SimpleData name="bt_network_km">13.6</SimpleData>
+		<SimpleData name="bt_spawning_km">0.9</SimpleData>
+		<SimpleData name="bt_rearing_km">7.1</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">330395</SimpleData>
+		<SimpleData name="utm_northing">6149308</SimpleData>
+		<SimpleData name="mapsheet">093N.111</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">Trib to Nation River. No fish documented in stream.  7km of BT rearing habitat modelled upstream with no other upstream crossings. </SimpleData>
+		<SimpleData name="wsc_code">237-897400-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-125.6825342759</SimpleData>
+		<SimpleData name="lat">55.4604909398983</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-125.6825342759,55.4604909398983</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>15201740 - high</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">15201740</SimpleData>
+		<SimpleData name="bt_network_km">45.9</SimpleData>
+		<SimpleData name="bt_spawning_km">4.5</SimpleData>
+		<SimpleData name="bt_rearing_km">13.6</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">355086</SimpleData>
+		<SimpleData name="utm_northing">6123605</SimpleData>
+		<SimpleData name="mapsheet">093N.107</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="stream_name">Fish Creek</SimpleData>
+		<SimpleData name="observedspp_upstr">BT;RB</SimpleData>
+		<SimpleData name="my_priority">high</SimpleData>
+		<SimpleData name="my_priority_comments">Multiple BT observations documented upstream. 13km of BT rearing habitat modelled upstream and no other CBS upstream on mainstem, only bridges.  Crossing is not far upstream from Nation Lake.   Tchentlo Lake Lodge located downstream near the confluence of this stream and Nation Lakes. </SimpleData>
+		<SimpleData name="wsc_code">237-673600-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-125.2790935924</SimpleData>
+		<SimpleData name="lat">55.2376443283194</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-125.2790935924,55.2376443283194</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>15201834 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">15201834</SimpleData>
+		<SimpleData name="bt_network_km">14</SimpleData>
+		<SimpleData name="bt_spawning_km">2.2</SimpleData>
+		<SimpleData name="bt_rearing_km">9.2</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">362065</SimpleData>
+		<SimpleData name="utm_northing">6124875</SimpleData>
+		<SimpleData name="mapsheet">093N.108</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">No fish documented in stream, but relatively close to Nation Lake.  10km of BT rearing habitat documented upstream, with only one CBS on a potential road.  Wetland habitat upstream. </SimpleData>
+		<SimpleData name="wsc_code">237-688000-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-125.17004494488</SimpleData>
+		<SimpleData name="lat">55.2510489022971</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-125.17004494488,55.2510489022971</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>15202084 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">15202084</SimpleData>
+		<SimpleData name="bt_network_km">10.8</SimpleData>
+		<SimpleData name="bt_spawning_km">0.5</SimpleData>
+		<SimpleData name="bt_rearing_km">4.2</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">460163</SimpleData>
+		<SimpleData name="utm_northing">6130113</SimpleData>
+		<SimpleData name="mapsheet">093O.106</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="observedspp_upstr">RB</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">Decent channel width. RB downstream, and BT close downstream</SimpleData>
+		<SimpleData name="wsc_code">237-124500-19300-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.627703634301</SimpleData>
+		<SimpleData name="lat">55.3157934920429</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.627703634301,55.3157934920429</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>15202950 - high</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">15202950</SimpleData>
+		<SimpleData name="bt_network_km">7.1</SimpleData>
+		<SimpleData name="bt_spawning_km">0</SimpleData>
+		<SimpleData name="bt_rearing_km">3.1</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">361739</SimpleData>
+		<SimpleData name="utm_northing">6134520</SimpleData>
+		<SimpleData name="mapsheet">093N.108</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="my_priority">high</SimpleData>
+		<SimpleData name="my_priority_comments">From the aerial imagery it doesn’t look like there is a road here but BT were captured just downstream, so assuming there is a road present if people sampled here. Maybe not and wrong coordinates. Due to BT presence we should investigate. Another crossing modelled just upstream. 3km of BT rearing habitat modelled upstream and more on the southern tributary. </SimpleData>
+		<SimpleData name="wsc_code">237-713900-19200-08800-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-125.179915700795</SimpleData>
+		<SimpleData name="lat">55.337567457668</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-125.179915700795,55.337567457668</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>15203146 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">15203146</SimpleData>
+		<SimpleData name="bt_network_km">19</SimpleData>
+		<SimpleData name="bt_spawning_km">2.7</SimpleData>
+		<SimpleData name="bt_rearing_km">8.9</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">334061</SimpleData>
+		<SimpleData name="utm_northing">6150367</SimpleData>
+		<SimpleData name="mapsheet">093N.111</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">This crossing is just upstream from Nation Lake, with wetland habitat upstream.  8km of BT rearing habitat modelled upstream and No other crossings upstream.</SimpleData>
+		<SimpleData name="wsc_code">237-877600-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-125.625253842318</SimpleData>
+		<SimpleData name="lat">55.4712546559483</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-125.625253842318,55.4712546559483</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16400370 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16400370</SimpleData>
+		<SimpleData name="bt_network_km">6.1</SimpleData>
+		<SimpleData name="bt_spawning_km">0.1</SimpleData>
+		<SimpleData name="bt_rearing_km">3</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">453321</SimpleData>
+		<SimpleData name="utm_northing">6157621</SimpleData>
+		<SimpleData name="mapsheet">093O.111</SimpleData>
+		<SimpleData name="watershed_group_code">PARA</SimpleData>
+		<SimpleData name="observedspp_upstr">LKC;SP</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">Downstream crossings are either not present or bridges.  This looks to be the first true crossing. This is a trib to Blackwater Creek, which seems like a big, low angle, wetland-type drainage.  only 3km of bt rearing habitat upstream. </SimpleData>
+		<SimpleData name="wsc_code">230-913400-47700-11700-2890-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.740113430122</SimpleData>
+		<SimpleData name="lat">55.5623524347504</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.740113430122,55.5623524347504</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16400428 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16400428</SimpleData>
+		<SimpleData name="bt_network_km">18.5</SimpleData>
+		<SimpleData name="bt_spawning_km">1.6</SimpleData>
+		<SimpleData name="bt_rearing_km">4.2</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">488458</SimpleData>
+		<SimpleData name="utm_northing">6112359</SimpleData>
+		<SimpleData name="mapsheet">093O.103</SimpleData>
+		<SimpleData name="watershed_group_code">PARA</SimpleData>
+		<SimpleData name="observedspp_upstr">PCC;RB</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">Stream drains Grayling Lake which has documented PCC and RB. </SimpleData>
+		<SimpleData name="wsc_code">230-906900-15800-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.181143632168</SimpleData>
+		<SimpleData name="lat">55.1577331480283</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.181143632168,55.1577331480283</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16400506 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16400506</SimpleData>
+		<SimpleData name="bt_network_km">7.4</SimpleData>
+		<SimpleData name="bt_spawning_km">0.7</SimpleData>
+		<SimpleData name="bt_rearing_km">3.6</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">456059</SimpleData>
+		<SimpleData name="utm_northing">6188410</SimpleData>
+		<SimpleData name="mapsheet">093O.121</SimpleData>
+		<SimpleData name="watershed_group_code">PARA</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">Located just upstream of Williston Lake. Only one crossing upstream and its a bridge. </SimpleData>
+		<SimpleData name="wsc_code">230-901300-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.701643160206</SimpleData>
+		<SimpleData name="lat">55.8392375223276</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.701643160206,55.8392375223276</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16400714 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16400714</SimpleData>
+		<SimpleData name="bt_network_km">106.8</SimpleData>
+		<SimpleData name="bt_spawning_km">14.9</SimpleData>
+		<SimpleData name="bt_rearing_km">41.9</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">469038</SimpleData>
+		<SimpleData name="utm_northing">6148922</SimpleData>
+		<SimpleData name="mapsheet">093O.112</SimpleData>
+		<SimpleData name="watershed_group_code">PARA</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">40km of bt rearing km modelled upstream, looks like low angle wetland habitat. Not fish documented in stream, but just upstream of Williston Lake. </SimpleData>
+		<SimpleData name="wsc_code">230-910500-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.48995536047</SimpleData>
+		<SimpleData name="lat">55.4854404489589</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.48995536047,55.4854404489589</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16400738 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16400738</SimpleData>
+		<SimpleData name="bt_network_km">7.2</SimpleData>
+		<SimpleData name="bt_spawning_km">1.9</SimpleData>
+		<SimpleData name="bt_rearing_km">2.3</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">491471</SimpleData>
+		<SimpleData name="utm_northing">6131967</SimpleData>
+		<SimpleData name="mapsheet">093O.108</SimpleData>
+		<SimpleData name="watershed_group_code">PARA</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">Crossing located just up from Williston Lake, looks like it flows near/through water treatment plant or something. Very close to Mackenzie. Several other CBS upstream. No documented fish presence. </SimpleData>
+		<SimpleData name="wsc_code">230-905500-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.134452921015</SimpleData>
+		<SimpleData name="lat">55.3339947588033</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.134452921015,55.3339947588033</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16401519 - high</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16401519</SimpleData>
+		<SimpleData name="bt_network_km">100.5</SimpleData>
+		<SimpleData name="bt_spawning_km">22</SimpleData>
+		<SimpleData name="bt_rearing_km">35.9</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">486512</SimpleData>
+		<SimpleData name="utm_northing">6124976</SimpleData>
+		<SimpleData name="mapsheet">093O.107</SimpleData>
+		<SimpleData name="watershed_group_code">PARA</SimpleData>
+		<SimpleData name="observedspp_upstr">LKC;RB</SimpleData>
+		<SimpleData name="my_priority">high</SimpleData>
+		<SimpleData name="my_priority_comments">very close to Williston Lake.  No other CBS upstream, all bridges, based on aerial imagery.  RB and LKC documented upstream.  35km of BT rearing habitat modelled us. </SimpleData>
+		<SimpleData name="wsc_code">230-907800-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.212288029754</SimpleData>
+		<SimpleData name="lat">55.2710649700341</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.212288029754,55.2710649700341</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16401530 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16401530</SimpleData>
+		<SimpleData name="bt_network_km">37.4</SimpleData>
+		<SimpleData name="bt_spawning_km">5.5</SimpleData>
+		<SimpleData name="bt_rearing_km">9.4</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">486724</SimpleData>
+		<SimpleData name="utm_northing">6116602</SimpleData>
+		<SimpleData name="mapsheet">093O.102</SimpleData>
+		<SimpleData name="watershed_group_code">PARA</SimpleData>
+		<SimpleData name="observedspp_upstr">RB</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">9km of bt rearing habitat upstream. RB documented upstream. And a couple more CBS upstream. </SimpleData>
+		<SimpleData name="wsc_code">230-907400-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.208556613395</SimpleData>
+		<SimpleData name="lat">55.1958175417352</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.208556613395,55.1958175417352</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16401533 - high</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16401533</SimpleData>
+		<SimpleData name="bt_network_km">140.9</SimpleData>
+		<SimpleData name="bt_spawning_km">23</SimpleData>
+		<SimpleData name="bt_rearing_km">54.2</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">479617</SimpleData>
+		<SimpleData name="utm_northing">6141422</SimpleData>
+		<SimpleData name="mapsheet">093O.112</SimpleData>
+		<SimpleData name="watershed_group_code">PARA</SimpleData>
+		<SimpleData name="stream_name">Dastaiga Creek</SimpleData>
+		<SimpleData name="observedspp_upstr">SP</SimpleData>
+		<SimpleData name="my_priority">high</SimpleData>
+		<SimpleData name="my_priority_comments">Close to Williston Lake. Very few crossings upstream.  Lots of BT rearing habitat modelled upstream. </SimpleData>
+		<SimpleData name="wsc_code">230-909100-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.322002652919</SimpleData>
+		<SimpleData name="lat">55.4186032925231</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.322002652919,55.4186032925231</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16401545 - high</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16401545</SimpleData>
+		<SimpleData name="bt_network_km">128.7</SimpleData>
+		<SimpleData name="bt_spawning_km">19.9</SimpleData>
+		<SimpleData name="bt_rearing_km">50.2</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">456256</SimpleData>
+		<SimpleData name="utm_northing">6156862</SimpleData>
+		<SimpleData name="mapsheet">093O.111</SimpleData>
+		<SimpleData name="watershed_group_code">PARA</SimpleData>
+		<SimpleData name="stream_name">Blackwater Creek</SimpleData>
+		<SimpleData name="observedspp_upstr">BB;BT;CC;CSU;DV;GR;LKC;LSU;MW;RB</SimpleData>
+		<SimpleData name="my_priority">high</SimpleData>
+		<SimpleData name="my_priority_comments">Big, low angle, wetland-type drainage. BT and GR documented upstream of this crossing. </SimpleData>
+		<SimpleData name="wsc_code">230-913400-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.693461326658</SimpleData>
+		<SimpleData name="lat">55.5558049610935</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.693461326658,55.5558049610935</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16401547 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16401547</SimpleData>
+		<SimpleData name="bt_network_km">24.8</SimpleData>
+		<SimpleData name="bt_spawning_km">3.7</SimpleData>
+		<SimpleData name="bt_rearing_km">9.1</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">476480</SimpleData>
+		<SimpleData name="utm_northing">6147560</SimpleData>
+		<SimpleData name="mapsheet">093O.112</SimpleData>
+		<SimpleData name="watershed_group_code">PARA</SimpleData>
+		<SimpleData name="observedspp_upstr">RB;SP</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">9km of bt rearing habitat upstream. RB documented upstream. Only one CBS upstream. </SimpleData>
+		<SimpleData name="wsc_code">230-910000-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.37207633188</SimpleData>
+		<SimpleData name="lat">55.4736160650943</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.37207633188,55.4736160650943</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16401699 - high</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16401699</SimpleData>
+		<SimpleData name="bt_network_km">114.3</SimpleData>
+		<SimpleData name="bt_spawning_km">33.5</SimpleData>
+		<SimpleData name="bt_rearing_km">49.7</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">491234</SimpleData>
+		<SimpleData name="utm_northing">6125187</SimpleData>
+		<SimpleData name="mapsheet">093O.108</SimpleData>
+		<SimpleData name="watershed_group_code">PARA</SimpleData>
+		<SimpleData name="stream_name">Gagnon Creek</SimpleData>
+		<SimpleData name="observedspp_upstr">BB;BMC;BT;C;CAS;CC;CCG;CSU;LKC;LSU;LW;NSC;PCC;RB;RSC;SP;SU;WSU</SimpleData>
+		<SimpleData name="my_priority">high</SimpleData>
+		<SimpleData name="my_priority_comments">Assuming this is a massive culvert under the railway. Assuming passable given the many fish observations just upstream in the inlet.  Right in Mackenzie. </SimpleData>
+		<SimpleData name="wsc_code">230-905800-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.137980028047</SimpleData>
+		<SimpleData name="lat">55.2730674517657</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.137980028047,55.2730674517657</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16401990 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16401990</SimpleData>
+		<SimpleData name="bt_network_km">26.6</SimpleData>
+		<SimpleData name="bt_spawning_km">3</SimpleData>
+		<SimpleData name="bt_rearing_km">6.4</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">480206</SimpleData>
+		<SimpleData name="utm_northing">6138995</SimpleData>
+		<SimpleData name="mapsheet">093O.107</SimpleData>
+		<SimpleData name="watershed_group_code">PARA</SimpleData>
+		<SimpleData name="observedspp_upstr">RB</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">RB documented us, and 6km of BT rearing habitat modelled upstream. two other CBS upstream.  </SimpleData>
+		<SimpleData name="wsc_code">230-908900-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.312526077469</SimpleData>
+		<SimpleData name="lat">55.3968199708408</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.312526077469,55.3968199708408</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16701130 - high</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16701130</SimpleData>
+		<SimpleData name="bt_network_km">19.3</SimpleData>
+		<SimpleData name="bt_spawning_km">3.6</SimpleData>
+		<SimpleData name="bt_rearing_km">8.3</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">522727</SimpleData>
+		<SimpleData name="utm_northing">6199674</SimpleData>
+		<SimpleData name="mapsheet">093O.124</SimpleData>
+		<SimpleData name="watershed_group_code">PCEA</SimpleData>
+		<SimpleData name="observedspp_upstr">LKC;LSU;LT;RB</SimpleData>
+		<SimpleData name="my_priority">high</SimpleData>
+		<SimpleData name="my_priority_comments">Crossing is 900m upstream of Carbon Creek, with BT documented at the confluence of these two streams as recently as 2012.  Stream drains Carbon Lake with no other CBS upstream. </SimpleData>
+		<SimpleData name="wsc_code">230-846900-11400-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-122.636136094061</SimpleData>
+		<SimpleData name="lat">55.9419042061789</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.636136094061,55.9419042061789</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16701150 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16701150</SimpleData>
+		<SimpleData name="bt_network_km">7.6</SimpleData>
+		<SimpleData name="bt_spawning_km">0.2</SimpleData>
+		<SimpleData name="bt_rearing_km">4.1</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">482825</SimpleData>
+		<SimpleData name="utm_northing">6240727</SimpleData>
+		<SimpleData name="mapsheet">094B.107</SimpleData>
+		<SimpleData name="watershed_group_code">PCEA</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">No fish documented in the stream, however, the crossing is located approximately 200m upstream of the confluence with Nabesche River, where GR and DV have been documented just just downstream.  No other CBS upstream. </SimpleData>
+		<SimpleData name="wsc_code">230-860500-56200-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.277616362718</SimpleData>
+		<SimpleData name="lat">56.3109861969594</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.277616362718,56.3109861969594</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16701333 - high</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16701333</SimpleData>
+		<SimpleData name="bt_network_km">13.1</SimpleData>
+		<SimpleData name="bt_spawning_km">0.6</SimpleData>
+		<SimpleData name="bt_rearing_km">5.2</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">522811</SimpleData>
+		<SimpleData name="utm_northing">6196513</SimpleData>
+		<SimpleData name="mapsheet">093O.124</SimpleData>
+		<SimpleData name="watershed_group_code">PCEA</SimpleData>
+		<SimpleData name="my_priority">high</SimpleData>
+		<SimpleData name="my_priority_comments">No fish documented in the stream, however, the crossing is located approximately 500m upstream of the confluence with Carbon Creek, where BT have been documented.  No other CBS upstream. </SimpleData>
+		<SimpleData name="wsc_code">230-846900-18000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-122.635063509997</SimpleData>
+		<SimpleData name="lat">55.9135029941621</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.635063509997,55.9135029941621</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16701346 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16701346</SimpleData>
+		<SimpleData name="bt_network_km">6.9</SimpleData>
+		<SimpleData name="bt_spawning_km">0</SimpleData>
+		<SimpleData name="bt_rearing_km">4.9</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">523799</SimpleData>
+		<SimpleData name="utm_northing">6194962</SimpleData>
+		<SimpleData name="mapsheet">093O.124</SimpleData>
+		<SimpleData name="watershed_group_code">PCEA</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">Possible bridge but unable to confirm with aerial imagery.  No fish documented in the stream, however, the crossing is located approximately 900m upstream of the confluence with Carbon Creek, where BT have been documented just downstream.  One other posible CBS upstream. </SimpleData>
+		<SimpleData name="wsc_code">230-846900-21000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-122.619394717603</SimpleData>
+		<SimpleData name="lat">55.8995200742311</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.619394717603,55.8995200742311</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16701712 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16701712</SimpleData>
+		<SimpleData name="bt_network_km">11.2</SimpleData>
+		<SimpleData name="bt_spawning_km">1.6</SimpleData>
+		<SimpleData name="bt_rearing_km">6.2</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">488844</SimpleData>
+		<SimpleData name="utm_northing">6198242</SimpleData>
+		<SimpleData name="mapsheet">093O.123</SimpleData>
+		<SimpleData name="watershed_group_code">PCEA</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">No fish documented in stream but crossing is not far upstream from Williston Lake.  Several other CBS upstream. </SimpleData>
+		<SimpleData name="wsc_code">230-871000-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.178549282764</SimpleData>
+		<SimpleData name="lat">55.9294500142795</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.178549282764,55.9294500142795</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>16701773 - high</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">16701773</SimpleData>
+		<SimpleData name="bt_network_km">22.6</SimpleData>
+		<SimpleData name="bt_spawning_km">6.6</SimpleData>
+		<SimpleData name="bt_rearing_km">11.3</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">540327</SimpleData>
+		<SimpleData name="utm_northing">6221480</SimpleData>
+		<SimpleData name="mapsheet">094B.105</SimpleData>
+		<SimpleData name="watershed_group_code">PCEA</SimpleData>
+		<SimpleData name="my_priority">high</SimpleData>
+		<SimpleData name="my_priority_comments">Crossing is just upstream of Williston Lake and is within the Butler Ridge Provincial Park.  BT documented nearby in Williston Lake. Two CBS upstream that are likely not present but should be confirmed. </SimpleData>
+		<SimpleData name="wsc_code">230-828500-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-122.35110439974</SimpleData>
+		<SimpleData name="lat">56.1366675526663</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.35110439974,56.1366675526663</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>198667 - NA</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">198667</SimpleData>
+		<SimpleData name="bt_network_km">87.6</SimpleData>
+		<SimpleData name="bt_spawning_km">12.4</SimpleData>
+		<SimpleData name="bt_rearing_km">18.8</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">500641</SimpleData>
+		<SimpleData name="utm_northing">6089777</SimpleData>
+		<SimpleData name="mapsheet">093J.123</SimpleData>
+		<SimpleData name="watershed_group_code">CARP</SimpleData>
+		<SimpleData name="pscis_assessment_comment">Grate on inlet and beaver influenced wetland upstream.  Inlet blocked by beaver debris with beaver trap on inlet.  Potentially good candidate for leveler to maintain beaver activity without attempting to remove the animals. Ministry of Transportation chris_culvert_id: 1997066. 13:04:57</SimpleData>
+		<SimpleData name="stream_name">Tsatchuka Creek</SimpleData>
+		<SimpleData name="observedspp_upstr">CCG;RB</SimpleData>
+		<SimpleData name="wsc_code">230-906800-65600-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-122.989984554109</SimpleData>
+		<SimpleData name="lat">54.9549375547892</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.989984554109,54.9549375547892</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>198668 - NA</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">198668</SimpleData>
+		<SimpleData name="bt_network_km">9.5</SimpleData>
+		<SimpleData name="bt_spawning_km">0</SimpleData>
+		<SimpleData name="bt_rearing_km">0.6</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">501971</SimpleData>
+		<SimpleData name="utm_northing">6087814</SimpleData>
+		<SimpleData name="mapsheet">093J.123</SimpleData>
+		<SimpleData name="watershed_group_code">CARP</SimpleData>
+		<SimpleData name="pscis_assessment_comment">Abundant gravels, suitable for spawning upstream. Although flows are minimal, the streams does still have water.  Models as having over 3 km of habitat upstream below 5%. Although no fish are recorded as present upstream it seems highly likely that this would be a fish bearing stream. Outlet drop is 80cm.  Steep section of pipe at the inlet recorded as inlet drop. Ministry of Transportation chris_culvert_id: 1996852. 13:40:04</SimpleData>
+		<SimpleData name="stream_name">Tributary To Mcleod Lake</SimpleData>
+		<SimpleData name="wsc_code">230-906800-71800-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-122.969239132171</SimpleData>
+		<SimpleData name="lat">54.9372947156407</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.969239132171,54.9372947156407</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>198692 - NA</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">198692</SimpleData>
+		<SimpleData name="bt_network_km">12.4</SimpleData>
+		<SimpleData name="bt_spawning_km">0</SimpleData>
+		<SimpleData name="bt_rearing_km">2.3</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">511734</SimpleData>
+		<SimpleData name="utm_northing">6059315</SimpleData>
+		<SimpleData name="mapsheet">093J.118</SimpleData>
+		<SimpleData name="watershed_group_code">CRKD</SimpleData>
+		<SimpleData name="pscis_assessment_comment">Rainbow trout juveniles and adults (40-120mm in fork length) were captured with electrofishing within sites located 50m upstream and downstream of the Kerry Lake FSR. Fish were also observed in the outlet pool and upstream of the FSR crossing. There was beaver activity near the inlet and a large outlet drop. Upstream gravels provide suitable spawning habitat for resident fish, with good riparian vegetation supporting overall habitat quality. If there are no plans for further logging in the area, removing the crossing and deactivating the road could be considered as a fish passage remediation option.</SimpleData>
+		<SimpleData name="stream_name">Tributary To Kerry Lake</SimpleData>
+		<SimpleData name="wsc_code">230-906800-97600-22400-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-122.818012272223</SimpleData>
+		<SimpleData name="lat">54.6810531769816</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.818012272223,54.6810531769816</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>23502802 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">23502802</SimpleData>
+		<SimpleData name="bt_network_km">22.9</SimpleData>
+		<SimpleData name="bt_spawning_km">3.2</SimpleData>
+		<SimpleData name="bt_rearing_km">6.3</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">530426</SimpleData>
+		<SimpleData name="utm_northing">6205816</SimpleData>
+		<SimpleData name="mapsheet">093O.124</SimpleData>
+		<SimpleData name="watershed_group_code">UPCE</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">Trib to Gaylard Creek which has documented BT.  6km of BT habitat modelled upstream. Next upstream crossing is a bridge,  then one possible CBS. </SimpleData>
+		<SimpleData name="wsc_code">230-815600-04500-63200-0210-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-122.512192041278</SimpleData>
+		<SimpleData name="lat">55.9966638056115</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.512192041278,55.9966638056115</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>23502870 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">23502870</SimpleData>
+		<SimpleData name="bt_network_km">8.9</SimpleData>
+		<SimpleData name="bt_spawning_km">0.9</SimpleData>
+		<SimpleData name="bt_rearing_km">3.3</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">545962</SimpleData>
+		<SimpleData name="utm_northing">6203536</SimpleData>
+		<SimpleData name="mapsheet">093O.125</SimpleData>
+		<SimpleData name="watershed_group_code">UPCE</SimpleData>
+		<SimpleData name="stream_name">Track Creek</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">Trib to Gething Creek which has documented BT. Culvert documented in FISS at the confluence of this stream and Gething Creek. No other CBS upstream.  Not fish documented in stream. </SimpleData>
+		<SimpleData name="wsc_code">230-815600-09900-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-122.26351878707</SimpleData>
+		<SimpleData name="lat">55.9749461991218</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.26351878707,55.9749461991218</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>23502871 - high</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">23502871</SimpleData>
+		<SimpleData name="bt_network_km">69.4</SimpleData>
+		<SimpleData name="bt_spawning_km">17.8</SimpleData>
+		<SimpleData name="bt_rearing_km">34.6</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">531258</SimpleData>
+		<SimpleData name="utm_northing">6206271</SimpleData>
+		<SimpleData name="mapsheet">094B.104</SimpleData>
+		<SimpleData name="watershed_group_code">UPCE</SimpleData>
+		<SimpleData name="stream_name">Gaylard Creek</SimpleData>
+		<SimpleData name="observedspp_upstr">BT;RB</SimpleData>
+		<SimpleData name="my_priority">high</SimpleData>
+		<SimpleData name="my_priority_comments">BT documented upstream. 34 km of BT rearing habitat modelled upstream.  Next upstream crossing is a bridge, then only a few possible CBS located upstream of that. </SimpleData>
+		<SimpleData name="wsc_code">230-815600-04500-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-122.49879968333</SimpleData>
+		<SimpleData name="lat">56.0007018119081</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.49879968333,56.0007018119081</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>24718358 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">24718358</SimpleData>
+		<SimpleData name="bt_network_km">36.3</SimpleData>
+		<SimpleData name="bt_spawning_km">7.5</SimpleData>
+		<SimpleData name="bt_rearing_km">12.5</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">499574</SimpleData>
+		<SimpleData name="utm_northing">6115412</SimpleData>
+		<SimpleData name="mapsheet">093O.103</SimpleData>
+		<SimpleData name="watershed_group_code">PARA</SimpleData>
+		<SimpleData name="stream_name">Buth Creek</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">Railway crossing and another highway crossing upstream with no bridge. No fish documented in the stream. Two expensive fixes. </SimpleData>
+		<SimpleData name="wsc_code">230-906600-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.006685825201</SimpleData>
+		<SimpleData name="lat">55.1852998027595</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.006685825201,55.1852998027595</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>62622 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">62622</SimpleData>
+		<SimpleData name="bt_network_km">54.7</SimpleData>
+		<SimpleData name="bt_spawning_km">5.3</SimpleData>
+		<SimpleData name="bt_rearing_km">18.9</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">421633</SimpleData>
+		<SimpleData name="utm_northing">6103622</SimpleData>
+		<SimpleData name="mapsheet">093N.105</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="pscis_assessment_comment">Two pipes - 1.2+1.2m. Stream affected by beaver activities. Some nice garavels observed but flow likely to slow for salmonids. Good rearing and overwintering habitat.</SimpleData>
+		<SimpleData name="stream_name">Unnamed Tributary To Tributary Of Chuchi Lake</SimpleData>
+		<SimpleData name="observedspp_upstr">CSU;RB;RSC</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">100% backwatered at time of assessement in 2012.  Stream drains a lake and 18km of BT rearing habitat.  CSU;RB;RSC documented usptream.  Only two other CBS upstream on separate tribs. </SimpleData>
+		<SimpleData name="wsc_code">237-447200-60000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-124.227358884111</SimpleData>
+		<SimpleData name="lat">55.0731720086091</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-124.227358884111,55.0731720086091</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>62623 - high</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">62623</SimpleData>
+		<SimpleData name="bt_network_km">27.5</SimpleData>
+		<SimpleData name="bt_spawning_km">1.7</SimpleData>
+		<SimpleData name="bt_rearing_km">8.4</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">422422</SimpleData>
+		<SimpleData name="utm_northing">6108185</SimpleData>
+		<SimpleData name="mapsheet">093N.105</SimpleData>
+		<SimpleData name="watershed_group_code">NATR</SimpleData>
+		<SimpleData name="pscis_assessment_comment">Only good rearing habitat available, water murky. Pipe rusted; some flow undrneath.</SimpleData>
+		<SimpleData name="stream_name">Suschona Creek</SimpleData>
+		<SimpleData name="observedspp_upstr">CSU;LKC;LSU;RB</SimpleData>
+		<SimpleData name="my_priority">high</SimpleData>
+		<SimpleData name="my_priority_comments">Previously assessed in 2012, 0.4m outlet drop, and high value habitat.  Large drainage that drains a couple lakes. No other crossings noted upstream. </SimpleData>
+		<SimpleData name="wsc_code">237-372000-61800-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-124.216236975952</SimpleData>
+		<SimpleData name="lat">55.1142870212897</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-124.216236975952,55.1142870212897</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>6559 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">6559</SimpleData>
+		<SimpleData name="bt_network_km">17.4</SimpleData>
+		<SimpleData name="bt_spawning_km">0</SimpleData>
+		<SimpleData name="bt_rearing_km">2.1</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">489968</SimpleData>
+		<SimpleData name="utm_northing">6112333</SimpleData>
+		<SimpleData name="mapsheet">093O.103</SimpleData>
+		<SimpleData name="watershed_group_code">PARA</SimpleData>
+		<SimpleData name="pscis_assessment_comment">beaver dam 30 m u/s of culvert, trout observed in outlet pool, deep fill over culvert 10m est, rusty waterline inside culvert is at about 70% of D - undersized, large plunge pool, reco</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">Assessed in 2006 and trout observed in outlet pool. Worth reassessing.  Wetland habitat upstream. </SimpleData>
+		<SimpleData name="wsc_code">230-906900-02100-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.157442562248</SimpleData>
+		<SimpleData name="lat">55.1575328495907</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.157442562248,55.1575328495907</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>6564 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">6564</SimpleData>
+		<SimpleData name="bt_network_km">19.3</SimpleData>
+		<SimpleData name="bt_spawning_km">0.9</SimpleData>
+		<SimpleData name="bt_rearing_km">4.1</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">486579</SimpleData>
+		<SimpleData name="utm_northing">6112299</SimpleData>
+		<SimpleData name="mapsheet">093O.102</SimpleData>
+		<SimpleData name="watershed_group_code">PARA</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">First assessed in 2006.  RB documented in trib that joins just downstream of this crossing.  Reassess if there is time.</SimpleData>
+		<SimpleData name="wsc_code">230-906900-19500-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.210633712106</SimpleData>
+		<SimpleData name="lat">55.1571475788687</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.210633712106,55.1571475788687</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>7819 - mod</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">7819</SimpleData>
+		<SimpleData name="bt_network_km">12.1</SimpleData>
+		<SimpleData name="bt_spawning_km">1.1</SimpleData>
+		<SimpleData name="bt_rearing_km">5.2</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">488605</SimpleData>
+		<SimpleData name="utm_northing">6187223</SimpleData>
+		<SimpleData name="mapsheet">093O.123</SimpleData>
+		<SimpleData name="watershed_group_code">PCEA</SimpleData>
+		<SimpleData name="pscis_assessment_comment">Culvert laid at original stream gradient.  Fabric wrapped around log 5m downstream of outlet.</SimpleData>
+		<SimpleData name="stream_name">Trib To Clearwater Creek</SimpleData>
+		<SimpleData name="my_priority">mod</SimpleData>
+		<SimpleData name="my_priority_comments">Crossing was assessed in 2010.  No fish documented in the stream, but BT documented in the stream that forks to the west downstream.  CBS upstream likely not present. </SimpleData>
+		<SimpleData name="wsc_code">230-870800-11500-24500-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-123.181909856521</SimpleData>
+		<SimpleData name="lat">55.8304372661757</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.181909856521,55.8304372661757</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>7827 - high</name>
+	<ExtendedData><SchemaData schemaUrl="#sites_peace_2025_20250721">
+		<SimpleData name="id">7827</SimpleData>
+		<SimpleData name="bt_network_km">25</SimpleData>
+		<SimpleData name="bt_spawning_km">6</SimpleData>
+		<SimpleData name="bt_rearing_km">9.8</SimpleData>
+		<SimpleData name="utm_zone">10</SimpleData>
+		<SimpleData name="utm_easting">506054</SimpleData>
+		<SimpleData name="utm_northing">6164113</SimpleData>
+		<SimpleData name="mapsheet">093O.118</SimpleData>
+		<SimpleData name="watershed_group_code">PCEA</SimpleData>
+		<SimpleData name="stream_name">Trib To Clearwater Creek</SimpleData>
+		<SimpleData name="observedspp_upstr">BT;DV;LSU;RB;RSC</SimpleData>
+		<SimpleData name="my_priority">high</SimpleData>
+		<SimpleData name="my_priority_comments">Ranked as a barrier in 2010.  BT captured upstream in 2017. by @culling_etal2020Peacereach. No other CBS upstream. </SimpleData>
+		<SimpleData name="wsc_code">230-870800-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
+		<SimpleData name="long">-122.90387116929</SimpleData>
+		<SimpleData name="lat">55.6228813539788</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.90387116929,55.6228813539788</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
