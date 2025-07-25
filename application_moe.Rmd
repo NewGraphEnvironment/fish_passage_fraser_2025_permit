@@ -8,9 +8,9 @@ output:
 links-to-footnotes: false
 paged-footnotes: false
 params:
-  repo_url: 'https://github.com/lucy-schick/fish_passage_peace_2025_permit'
-  report_url: 'https://lucy-schick.github.io/fish_passage_peace_2025_permit/'
-  gis_project_name: "sern_peace_fwcp_2023"
+  repo_url: 'https://github.com/lucy-schick/fish_passage_fraser_2025_permit'
+  report_url: 'https://lucy-schick.github.io/fish_passage_fraser_2025_permit/'
+  gis_project_name: "sern_fraser_2024"
   update_packages: FALSE
 bibliography: "`r rbbt::bbt_write_bib('references.bib', overwrite = TRUE)`"
 biblio-style: apalike
@@ -33,19 +33,21 @@ Al Irvine
 New Graph Environment Ltd.  
 al@newgraphenvironment   
 250-777-1518  
-Date Original: 2025-07-15  
+Date Original: 2025-07-25  
 Date Revised: `r format(Sys.Date(), "%Y-%m-%d")` 
 :::
 
 
-Ministry of Environment
+Ministry of Water, Land and Resource Stewardship  
+and  
+Fisheries and Oceans Canada
 
 
 <br>
 
 ```{r setup, include = TRUE, echo =FALSE, message=FALSE, warning=FALSE}
-# gitbook_on <- TRUE
-gitbook_on <- FALSE  ##we just need turn  this on and off to switch between gitbook and pdf via paged.js
+gitbook_on <- TRUE
+# gitbook_on <- FALSE  ##we just need turn  this on and off to switch between gitbook and pdf via paged.js
 
 
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, dpi=60, out.width = "100%")
@@ -61,14 +63,14 @@ project_region <- stringr::str_extract(params$repo_url, "(?<=fish_passage_)[^_]+
 permit_year <- stringr::str_match(params$repo_url, "fish_passage_[^_]+_([0-9]{4})")[,2]
 
 # Build the link to the kml file
-link_kml <- fs::path(params$repo_url, '/blob/main/docs/', paste0("sites_", project_region, "_", permit_year, "_", format(Sys.Date(), '%Y%m%d'), "_kml.zip"))
+link_kml <- fs::path(params$repo_url, '/raw/main/mapping/', paste0("sites_", project_region, "_", permit_year, "_", format(Sys.Date(), '%Y%m%d'), "_kml.zip"))
 
-# Specific the target species likely to be tagged since we include so many. Varies from region to region and can be determined from
+# Specify the target species likely to be tagged since we include so many. Varies from region to region and can be determined from
 # past data (if this is a multi-year project)
 target_species <- c("rainbow trout", "bull trout", "burbot")
 
 # This varies depending on the date the file was created
-gis_planning_file <- "planning_20250703.gpkg"
+gis_planning_file <- "planning_20250721.gpkg"
 
 
 ```
@@ -87,7 +89,7 @@ font_set <- 8
 
 **Re: Scientific Fish Collection Permit Application**
 
-<!-- Please note that permitting to Fisheries and Oceans Canada is requested for inventory purposes only.  PIT tagging is NOT proposed for salmon species. PIT tagging is proposed to the Provincial Ministry of Water, Land and Resource Stewardship (WLRS) for provincial jurisdiction species only to monitor fish movement and growth over multiple years.   -->
+Please note that permitting to Fisheries and Oceans Canada is requested for inventory purposes only.  PIT tagging is NOT proposed for salmon species. PIT tagging is proposed to the Provincial Ministry of Water, Land and Resource Stewardship (WLRS) for provincial jurisdiction species only to monitor fish movement and growth over multiple years.
 
 
 ```{r pdf-inputs, eval = FALSE}
@@ -95,23 +97,21 @@ font_set <- 8
 
 ```
 
-<!-- <br> -->
+<br>
 
-`r if (gitbook_on == FALSE) knitr::asis_output(paste0("This permit application can also be viewed online [at this link](", params$report_url, ")."))` A summary of sites proposed for assessment, including historic fish presence records from FISS, is provided in Tables \@ref(tab:tab-sites1) to \@ref(tab:tab-sites3). Fish species known to occur within each watershed are summarized in Table \@ref(tab:tab-fish). An overview map showing potential sample locations is presented in Figure \@ref(fig:map). A KML and GPX file of all sites is attached to the application and can also be downloaded [at this link](`r paste0(params$repo_url,"/tree/main/mapping")`). The KML includes detailed site-specific information accessible by clicking on each location, with brief summaries of background reports where available.
+`r if (gitbook_on == FALSE) knitr::asis_output(paste0("This permit application can also be viewed online [at this link](", params$report_url, ")."))` A summary of sites proposed for assessment, including historic fish presence records from FISS, is provided in Tables \@ref(tab:tab-sites1) to \@ref(tab:tab-sites3). Fish species known to occur within each watershed are summarized in Table \@ref(tab:tab-fish). An overview map showing potential sample locations is presented in Figure \@ref(fig:map). A KML file of all sites is attached to the application and can also be downloaded [at this link](`r paste0(link_kml)`). The KML includes detailed site-specific information accessible by clicking on each location, with brief summaries of background reports where available.
+
+
 
 <br>
 
 ## Brief description of project/activities {-}
-This work is a multi-year collaboration of many groups and an initiative of the Society for Ecosystem Restoration Northern BC. Funding for the project is through the Fish and Wildlife Compensation Program and the Provincial Fish Passage Technical Working Group.  Fieldwork is being led by Al Irvine, R.P.Bio., of New Graph Environment Ltd., in collaboration with field and office teams from McLeod Lake Indian Band. Previous reports are provided below:
 
-- https://newgraphenvironment.github.io/Parsnip_Fish_Passage/
-- https://newgraphenvironment.github.io/fish_passage_parsnip_2021_reporting/
-- https://newgraphenvironment.github.io/fish_passage_peace_2022_reporting/
-- https://newgraphenvironment.github.io/fish_passage_peace_2023_reporting/
-- https://newgraphenvironment.github.io/fish_passage_peace_2024_reporting/
+This work is a multi-year collaboration of many groups and an initiative of the Society for Ecosystem Restoration Northern BC. Funding for the project is through the Society for Ecosystem Restoration Northern BC, the Ministry of Transportation and Infrastructure (MoTI) and the Provincial Fish Passage Technical Working Group. Al Irvine, R.P.Bio from New Graph Environment Ltd. is leading the fieldwork with field and office collaboration with teams from throughout the study area. Previous reports are provided below:
 
-<br>
-<br>
+- https://www.newgraphenvironment.com/fish_passage_fraser_2023_reporting/
+- https://www.newgraphenvironment.com/fish_passage_moti_2022_reporting/
+
 <br>
 
 ## Rationale for sampling {-}
@@ -180,24 +180,25 @@ Al Irvine, R.P.Bio
 
 # Identify the sites from previous years that we will be returning to again.
 site_review_ids <- c(
-  #arctic
-  125000, 
-  #fern
-  125261, 
-  # table 21k
-  125231,
-  #missinka remediated
-  125179,
-  ##missinka reference
-  125180,
-  ##trib to Kerry Lake where BCTS is deactivating.  Good flow
-  198692,
-  ##trib to McLeod with large outlet, ok flow and decent looking habitat. On reserve and close to community
-  198668,
-  ##trib to McLeod Lake right at the store and walking distance from community.  
-  ## good site for sampling to get people interested
-  #large outlet drop, ok flow and decent looking habitat. On reserve
-  198667
+  #Dog Creek
+  199173, 
+  199174, 
+  # Burnt Cabin
+  199171,
+  7622,
+  # Scotch
+  199172,
+  199328,
+  # Clear Creek
+  199190,
+  # Trib to Sugarbowl
+  199260,
+  # Driscoll
+  199267,
+  # Teepee 
+  199278, 
+  203302,
+  4931
   )
 
 
@@ -299,6 +300,8 @@ table_sites <- dplyr::left_join(
          bt_network_km,
          bt_spawning_km,
          bt_rearing_km,
+         ch_spawning_km, # Grab ch_spawning_km and ch_rearing_km because LSAL watershed only has CH no BT
+         ch_rearing_km,
          utm_zone,
          utm_easting,
          utm_northing,
@@ -316,12 +319,6 @@ table_sites <- dplyr::left_join(
 
   by = 'modelled_crossing_id'
 ) |>  
-  # add the 3 missing watershed codes for the crossings that didn't have `modelled_crossing_id`
-  dplyr::mutate(wsc_code = dplyr::case_when(id == 125000 ~ "236-738000-00000-00000-0000-0000-000-000-000-000-000-000",
-                                            id == 7819 ~ "230-870800-11500-24500-0000-0000-000-000-000-000-000-000",
-                                            id == 7827 ~ "230-870800-00000-00000-0000-0000-000-000-000-000-000-000",
-                                            T ~ wsc_code)) |> 
-
    # do some clean up and wrangle
   dplyr::mutate(dplyr::across(dplyr::starts_with('bt_'), ~round(., 1))) |> 
   dplyr::arrange(id) |>  
@@ -431,12 +428,11 @@ table_sites |>
     quiet = TRUE
   )
 
-# # Zip up all remaining KMLs (should just be today's file)
-# files_to_zip <- paste0("mapping/", list.files(path = "mapping/", pattern = "\\.kml$"))
-# zip::zipr(
-#   zipfile = paste0("docs/", prefix, today_date, "_kml.zip"),
-#   files = files_to_zip
-# )
+# Zip up the KML file. We need to do this so that we can link to the KML and it will automatically download. Just linking to the KML with raw instead of blob in the file path doesn't work. 
+zip::zipr(
+  zipfile = paste0("mapping/", prefix, today_date, "_kml.zip"),
+  files = paste0("mapping/", path_kml)
+)
 
 
 ```
