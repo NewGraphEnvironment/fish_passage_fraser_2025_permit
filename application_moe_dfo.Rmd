@@ -62,7 +62,7 @@ source('scripts/staticimports.R')
 project_region <- stringr::str_extract(params$repo_url, "(?<=fish_passage_)[^_]+")
 permit_year <- stringr::str_match(params$repo_url, "fish_passage_[^_]+_([0-9]{4})")[,2]
 
-# Build the link to the kml file
+# Build the link to the zip file
 link_kml <- fs::path(params$repo_url, '/raw/main/mapping/', paste0("sites_", project_region, "_", permit_year, ".zip"))
 
 # Specify the target species likely to be tagged since we include so many. Varies from region to region and can be determined from
@@ -378,22 +378,23 @@ cat(formatted_output)
 # we also need a list of salmon species to copy paste into the DFO pdf.  I think it is only CH
 ```
 
+```{r rm-files}
+dir.create('mapping')
+# Get today's date in YYYYMMDD format
+date_today <- format(Sys.Date(), "%Y%m%d")
+prefix <- paste0("sites_", project_region, "_", permit_year)
+# List all .gpx, .kml, and .zip files in the 'mapping' directory
+files_all <- fs::dir_ls("mapping", regexp = "\\.(gpx|kml|zip)$")
+# Extract just the file names
+file_names <- fs::path_file(files_all)
+# Identify files that do NOT contain today's date
+files_to_delete <- files_all[!grepl(date_today, file_names)]
+# Delete the old files
+fs::file_delete(files_to_delete)
+```
 
 ```{r gpx}
-
-dir.create('mapping')
-
-# Build the gpx file name with today's date
-today_date <- format(Sys.Date(), "%Y%m%d")
-prefix <- paste0("sites_", project_region, "_", permit_year, "_")
-path_gps <- paste0(prefix, today_date, ".gpx")
-
-# Delete old gpx files that are not today's file
-gpx_files <- fs::dir_ls("mapping", regexp = paste0("^mapping/", prefix, ".*\\.gpx$"))
-
-files_to_delete <- gpx_files[!fs::path_file(gpx_files) %in% path_gps]
-fs::file_delete(files_to_delete)
-
+path_gps <- paste0(prefix, "_", date_today, ".gpx")
 
 # make a gpx file for loading into the gps
 table_sites |> 
@@ -413,13 +414,7 @@ table_sites |>
 
 ```{r kml}
 ##make a kml for adding to the georef pdf and sharing with stakeholders
-
-
-# Delete old kml files that are not today's file
-path_kml <- paste0(prefix, today_date, ".kml")
-kml_files <- fs::dir_ls("mapping", regexp = paste0("^mapping/", prefix, ".*\\.kml$"))
-files_to_delete <- kml_files[!fs::path_file(kml_files) %in% path_kml]
-fs::file_delete(files_to_delete)
+path_kml <- paste0(prefix, "_", date_today, ".kml")
 
 # Write today's KML file
 table_sites |> 
@@ -432,8 +427,8 @@ table_sites |>
 
 # Zip up the KML file. We need to do this so that we can link to the KML and it will automatically download. Just linking to the KML with raw instead of blob in the file path doesn't work. 
 zip::zipr(
-  zipfile = paste0("mapping/", prefix, today_date, "_kml.zip"),
-  files = paste0("mapping/", path_kml)
+  zipfile = paste0("mapping/", prefix, ".zip"),
+  files = fs::dir_ls("mapping/", regexp = "\\.(gpx|kml)$")
 )
 
 
