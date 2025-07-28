@@ -8,8 +8,8 @@ output:
 links-to-footnotes: false
 paged-footnotes: false
 params:
-  repo_url: 'https://github.com/lucy-schick/fish_passage_fraser_2025_permit'
-  report_url: 'https://lucy-schick.github.io/fish_passage_fraser_2025_permit/'
+  repo_url: 'https://github.com/NewGraphEnvironment/fish_passage_fraser_2025_permit'
+  report_url: 'https://NewGraphEnvironment.github.io/fish_passage_fraser_2025_permit/'
   gis_project_name: "sern_fraser_2024"
   update_packages: FALSE
 bibliography: "`r rbbt::bbt_write_bib('references.bib', overwrite = TRUE)`"
@@ -63,7 +63,7 @@ project_region <- stringr::str_extract(params$repo_url, "(?<=fish_passage_)[^_]+
 permit_year <- stringr::str_match(params$repo_url, "fish_passage_[^_]+_([0-9]{4})")[,2]
 
 # Build the link to the kml file
-link_kml <- fs::path(params$repo_url, '/raw/main/mapping/', paste0("sites_", project_region, "_", permit_year, "_", format(Sys.Date(), '%Y%m%d'), "_kml.zip"))
+link_kml <- fs::path(params$repo_url, '/raw/main/mapping/', paste0("sites_", project_region, "_", permit_year, ".zip"))
 
 # Specify the target species likely to be tagged since we include so many. Varies from region to region and can be determined from
 # past data (if this is a multi-year project)
@@ -99,7 +99,7 @@ Please note that permitting to Fisheries and Oceans Canada is requested for inve
 
 <br>
 
-`r if (gitbook_on == FALSE) knitr::asis_output(paste0("This permit application can also be viewed online [at this link](", params$report_url, ")."))` A summary of sites proposed for assessment, including historic fish presence records from FISS, is provided in Tables \@ref(tab:tab-sites1) to \@ref(tab:tab-sites3). Fish species known to occur within each watershed are summarized in Table \@ref(tab:tab-fish). An overview map showing potential sample locations is presented in Figure \@ref(fig:map). A KML file of all sites is attached to the application and can also be downloaded [at this link](`r paste0(link_kml)`). The KML includes detailed site-specific information accessible by clicking on each location, with brief summaries of background reports where available.
+`r if (gitbook_on == FALSE) knitr::asis_output(paste0("This permit application can also be viewed online [at this link](", params$report_url, ")."))` A summary of sites proposed for assessment, including historic fish presence records from FISS, is provided in Tables \@ref(tab:tab-sites1) to \@ref(tab:tab-sites3). Fish species known to occur within each watershed are summarized in Table \@ref(tab:tab-fish). An overview map showing potential sample locations is presented in Figure \@ref(fig:map).  A KML file (google earth) and GPX file (for garmin gps devices) of all sites is attached to the application with latest versions downloadable [here](`r link_kml`) or [here](`r paste0(params$repo_url,"/tree/main/mapping")`. The KML includes detailed site-specific information accessible by clicking on each location in google earth, with brief summaries of background reports where available.
 
 
 
@@ -107,7 +107,7 @@ Please note that permitting to Fisheries and Oceans Canada is requested for inve
 
 ## Brief description of project/activities {-}
 
-This work is a multi-year collaboration of many groups and an initiative of the Society for Ecosystem Restoration Northern BC. Funding for the project is through the Society for Ecosystem Restoration Northern BC, the Ministry of Transportation and Infrastructure (MoTI) and the Provincial Fish Passage Technical Working Group. Al Irvine, R.P.Bio from New Graph Environment Ltd. is leading the fieldwork with field and office collaboration with teams from throughout the study area. Previous reports are provided below:
+This work is a multi-year collaboration of many groups and an initiative of the Society for Ecosystem Restoration Northern BC. Funding for the project is through the Habitat Conservation Trust Foundation, Society for Ecosystem Restoration Northern BC, and the Ministry of Transportation and Infrastructure (MoTI). Al Irvine, R.P.Bio from New Graph Environment Ltd. is leading the fieldwork with field and office collaboration with teams from throughout the study area. Previous reports are provided below:
 
 - https://www.newgraphenvironment.com/fish_passage_fraser_2023_reporting/
 - https://www.newgraphenvironment.com/fish_passage_moti_2022_reporting/
@@ -154,7 +154,7 @@ impacts_mitigation <- tribble(
   ~Impact, ~Mitigation,
   "High Voltage Injuries", "Use the minimum effective voltage.  Avoid contacting fish with the anode.  Avoid electrofishing directly adjacent to metal culverts.",
   "Disruption of Spawning", "Avoid electrofishing during highest risk periods in likely spawning habitat.",
-  "Physical Stress on Fish", "Quick/gentle handling and release of captured fish.",
+  "Physical Stress on Fish", "Quick/gentle handling and release of captured fish. Use of clove oil to anesthetize fish.",
   "Injury from PIT Tagging Surgeries", "Shallow insertion of tags and use of fresh sterile syringes every approximately 10 surgeries",
   "Mortality in traps due to predation and starvation", "Ensure all traps set are retrieved within 24 hours."
 )
@@ -173,7 +173,7 @@ Please do not hesitate to contact me if you need more information or have any qu
 
 
 
-<!-- ![signature](/Users/airvine/Library/CloudStorage/OneDrive-Personal/Admin/Al_Sig.jpg){width=50%} -->
+![signature](/Users/airvine/Projects/current/Admin/Al_Sig.jpg){width=50%}
 Al Irvine, R.P.Bio 
 
 ```{r pull-db}
@@ -182,13 +182,13 @@ Al Irvine, R.P.Bio
 site_review_ids <- c(
   #Dog Creek
   199173, 
-  199174, 
+  # 199174, 
   # Burnt Cabin
   199171,
   7622,
   # Scotch
   199172,
-  199328,
+  # 199328,
   # Clear Creek
   199190,
   # Trib to Sugarbowl
@@ -196,9 +196,9 @@ site_review_ids <- c(
   # Driscoll
   199267,
   # Teepee 
-  199278, 
-  203302,
-  4931
+  199278 
+  # 203302,
+  # 4931
   )
 
 
