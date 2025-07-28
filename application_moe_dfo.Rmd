@@ -63,7 +63,6 @@ project_region <- stringr::str_extract(params$repo_url, "(?<=fish_passage_)[^_]+
 permit_year <- stringr::str_match(params$repo_url, "fish_passage_[^_]+_([0-9]{4})")[,2]
 
 # Build the link to the zip file
-# link_kml <- fs::path(params$repo_url, '/raw/main/mapping/', paste0("sites_", project_region, "_", permit_year, ".zip"))
 link_kml <- glue::glue("{params$repo_url}/raw/main/mapping/sites_{project_region}_{permit_year}.zip")
 
 
