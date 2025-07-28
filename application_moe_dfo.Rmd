@@ -99,7 +99,7 @@ Please note that permitting to Fisheries and Oceans Canada is requested for inve
 
 <br>
 
-`r if (gitbook_on == FALSE) knitr::asis_output(paste0("This permit application can also be viewed online [at this link](", params$report_url, ")."))` A summary of sites proposed for assessment, including historic fish presence records from FISS, is provided in Tables \@ref(tab:tab-sites1) to \@ref(tab:tab-sites3). Fish species known to occur within each watershed are summarized in Table \@ref(tab:tab-fish). An overview map showing potential sample locations is presented in Figure \@ref(fig:map).  A KML file (google earth) and GPX file (for garmin gps devices) of all sites is attached to the application with latest versions downloadable [here](`r link_kml`) or [here](`r paste0(params$repo_url,"/tree/main/mapping")`. The KML includes detailed site-specific information accessible by clicking on each location in google earth, with brief summaries of background reports where available.
+`r if (gitbook_on == FALSE) knitr::asis_output(paste0("This permit application can also be viewed online [at this link](", params$report_url, ")."))` A summary of sites proposed for assessment, including historic fish presence records from FISS, is provided in Tables \@ref(tab:tab-sites1) to \@ref(tab:tab-sites3). Fish species known to occur within each watershed are summarized in Table \@ref(tab:tab-fish). An overview map showing potential sample locations is presented in Figure \@ref(fig:map).  A KML file (google earth) and GPX file (for garmin gps devices) of all sites is attached to the application with latest versions downloadable [here](`r link_kml`) or [here](`r paste0(params$repo_url,"/tree/main/mapping")`). The KML includes detailed site-specific information accessible by clicking on each location in google earth, with brief summaries of background reports where available.
 
 
 
@@ -196,9 +196,11 @@ site_review_ids <- c(
   # Driscoll
   199267,
   # Teepee 
-  199278 
+  199278, 
   # 203302,
   # 4931
+  # snowshoe what the heck..
+  199237
   )
 
 

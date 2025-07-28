@@ -24,7 +24,7 @@ staticimports::import()
 
 {
   # Parameterize the memo name
-  name_memo <- "application_moe"
+  name_memo <- "application_moe_dfo"
 
   # Render outputs
   rmarkdown::render(
