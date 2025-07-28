@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 3.8.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+<bounds minlat="52.891638328370519" minlon="-124.708956286779468" maxlat="54.145007293546385" maxlon="-119.318569473403784"/>                                   
+</metadata>
+<wpt lat="54.05624829908075" lon="-122.764614999953793">
+  <name>12200024 - high</name>
+  <desc>bt_rearing - 0km. CH captured downstream. Crossing is very close to Prince George in residential area. Multiple other CBS upstream. Nice looking stream.</desc>
+</wpt>
+<wpt lat="54.145007293546385" lon="-123.058035535431387">
+  <name>12202167 - mod</name>
+  <desc>bt_rearing - 0km. No fish documented in stream.  Wetland habitat upstream based on aerial imagery. </desc>
+</wpt>
+<wpt lat="53.35036012237191" lon="-121.74746469856683">
+  <name>126267 - mod</name>
+  <desc>bt_rearing - 19.4km. No outlet drop. No target species documented upstream.  Habitat rated as high value during 2014 assessment.  Few CBS upstream.</desc>
+</wpt>
+<wpt lat="54.06901358087962" lon="-122.430776408622052">
+  <name>126290 - high</name>
+  <desc>bt_rearing - 144.3km. CH documented upstream.   Stream drains Eaglet Lake which is a traditional fishing site for first nations,  with all other CBS ranked as passable between this crossing and the lake. </desc>
+</wpt>
+<wpt lat="53.881804222537518" lon="-122.215208638855614">
+  <name>126316 - mod</name>
+  <desc>bt_rearing - 132km. o outlet drop and culvert has baffles.  CH documented upstream and downstream.  Large watershed with over 75km of CH rearing habitat modelled upstream.  Only one other CSB upstream on mainstem. </desc>
+</wpt>
+<wpt lat="53.95440190431836" lon="-122.599437136128572">
+  <name>196051 - high</name>
+  <desc>bt_rearing - 11.6km. No other CBS downstream.  RIght in Prince George.  CH documented downstream in 2010.</desc>
+</wpt>
+<wpt lat="53.757624677102186" lon="-122.656011428250963">
+  <name>196072 - high</name>
+  <desc>bt_rearing - 102.5km. Ranked as a barrier in 2014 and high value habitat noted.  Large highway crossing.  Close to PG. </desc>
+</wpt>
+<wpt lat="53.806250702144453" lon="-122.719043219233257">
+  <name>196085 - high</name>
+  <desc>bt_rearing - 75.3km. CH captured ds in 2004.  Fish observed in outlet during 2014 assessment.  Unassessed railway crossing upstream, and several assessed highway crossings. Close to PG.</desc>
+</wpt>
+<wpt lat="53.770036383051114" lon="-122.63344767485701">
+  <name>196151 - high</name>
+  <desc>bt_rearing - 98.1km. Ranked as a barrier in 2014 and medium value habitat noted.  Close to PG. Beaver dam noted at inlet.</desc>
+</wpt>
+<wpt lat="53.834101379614594" lon="-122.67897434108626">
+  <name>196201 - high</name>
+  <desc>bt_rearing - 6.5km. CH documented downstream in 2017. Medium value habitat noted at time of assessment in 2014.  Close to Prince George.  Upstream crossing has 3m wide channel width.</desc>
+</wpt>
+<wpt lat="53.902750182011573" lon="-122.741312921755508">
+  <name>196207 - mod</name>
+  <desc>bt_rearing - 2.7km. This crossing is a high priority crossing from hooft2015Fishpassage.  Within the Prince George City limitis. Several other CBS upstream ranked as potential barriers, and 1.8km of habitat modelled upstream. </desc>
+</wpt>
+<wpt lat="53.847091249653566" lon="-122.771614635449907">
+  <name>196264 - mod</name>
+  <desc>bt_rearing - 5.5km. CH documented downstream.  Crossing is within the Prince George city limits. </desc>
+</wpt>
+<wpt lat="53.197343293904105" lon="-121.892682555278355">
+  <name>196328 - mod</name>
+  <desc>bt_rearing - 3.4km. This crossing was ranked as a top priority by hooft2015Fishpassage,  with medium value habitat noted. Bt documented upstream of the crossing. No other CBS upstream. </desc>
+</wpt>
+<wpt lat="53.08098910610078" lon="-121.649189776391353">
+  <name>196340 - mod</name>
+  <desc>bt_rearing - 3.5km. BT documented downstream in 2021 and in adjacent streams.  Burbot documented upstream. Crossing had no outlet drop and high value habitat during 2014 assessment.No other CBS upstream. </desc>
+</wpt>
+<wpt lat="53.578226244152106" lon="-122.739024267604037">
+  <name>19702777 - high</name>
+  <desc>bt_rearing - 9.3km. CH observations in downstream McCorkall Creek.  No other CBS upstream. </desc>
+</wpt>
+<wpt lat="53.806056696768067" lon="-122.713842695849848">
+  <name>19703257 - high</name>
+  <desc>bt_rearing - 74.8km. CH captured ds in 2004. Several assessed highway crossings upstream. Close to PG.</desc>
+</wpt>
+<wpt lat="53.935455316638183" lon="-122.666967004514376">
+  <name>19703286 - high</name>
+  <desc>bt_rearing - 9.8km. CH captured downstream in 2017.  Very close to Prince George.  </desc>
+</wpt>
+<wpt lat="54.019717460493624" lon="-122.596330743775454">
+  <name>19703295 - high</name>
+  <desc>bt_rearing - 11.7km. Likely very difficult to access. Unassessed railway crossing close to Prince George.  Upstream crossing is a high priority crossing from hooft2015Fishpassage, who noted fish observed in the outlet pool during assessment. </desc>
+</wpt>
+<wpt lat="53.97662497965765" lon="-122.649658400306421">
+  <name>19703303 - mod</name>
+  <desc>bt_rearing - 5.4km. Difficult to get to.  CH documented downstream .  Crossing is within the Prince George city limits.  Major road crossing upstream ranked as barrier.</desc>
+</wpt>
+<wpt lat="53.571653441747245" lon="-122.696395934223503">
+  <name>19703358 - mod</name>
+  <desc>bt_rearing - 17.4km. Several other major CBS upstream.  CH caprured near the confluence of this stream and the Fraser River. </desc>
+</wpt>
+<wpt lat="54.109282868418909" lon="-124.698749407167611">
+  <name>199171 - NA</name>
+  <desc>bt_rearing - 2.3km. NA</desc>
+</wpt>
+<wpt lat="54.108564717416854" lon="-124.708956286779468">
+  <name>199172 - NA</name>
+  <desc>bt_rearing - 1.6km. NA</desc>
+</wpt>
+<wpt lat="54.106066053643872" lon="-124.545617589056263">
+  <name>199173 - NA</name>
+  <desc>bt_rearing - 6.2km. NA</desc>
+</wpt>
+<wpt lat="54.108026270010242" lon="-124.138619053657152">
+  <name>199190 - NA</name>
+  <desc>bt_rearing - 28.8km. NA</desc>
+</wpt>
+<wpt lat="53.540949540542151" lon="-120.724481094732852">
+  <name>199237 - NA</name>
+  <desc>bt_rearing - 25.2km. NA</desc>
+</wpt>
+<wpt lat="53.893022217363615" lon="-121.662096982753766">
+  <name>199260 - NA</name>
+  <desc>bt_rearing - 0.9km. NA</desc>
+</wpt>
+<wpt lat="53.829689515640275" lon="-121.383731517417928">
+  <name>199267 - NA</name>
+  <desc>bt_rearing - 12.5km. NA</desc>
+</wpt>
+<wpt lat="52.891638328370519" lon="-119.318569473403784">
+  <name>199278 - NA</name>
+  <desc>bt_rearing - 0.5km. NA</desc>
+</wpt>
+<wpt lat="53.118146125111124" lon="-121.849171643480545">
+  <name>24400646 - mod</name>
+  <desc>bt_rearing - 3.8km. BT documented downstream. Several other unassessed CBS upstream. Stream surrounded by heavy forestry activity. </desc>
+</wpt>
+<wpt lat="53.978879630856724" lon="-122.443905324874265">
+  <name>24401504 - mod</name>
+  <desc>bt_rearing - 6.9km. Historic CH observations downstream.  Stream flows through several properties with bridges upstream, but can not confirm this crossing is a bridge/passable based on aerial imager</desc>
+</wpt>
+<wpt lat="53.980862401293784" lon="-122.367705426277695">
+  <name>24401692 - mod</name>
+  <desc>bt_rearing - 9.4km. Historic CH observation downstream.  Crossing is close to the Willow RIver. No other CBS between this crossing and where the stream modelleing changes to intermittent. </desc>
+</wpt>
+<wpt lat="53.982054093713081" lon="-122.369322298272309">
+  <name>24402183 - mod</name>
+  <desc>bt_rearing - 6.1km. Likely a bridge but can not confirm with aerial imagery.  Historic CH observation downstream.  Crossing is close to the Willow RIver. No other CBS between this crossing and where the stream modelleing changes to intermittent. </desc>
+</wpt>
+<wpt lat="53.744774794968677" lon="-122.671790679337079">
+  <name>24723694 - high</name>
+  <desc>bt_rearing - 104.8km. Large culvert under railway.  Highway crossing upstream which is ranked as a barrier and also an expensive fix.  Close to PG.  </desc>
+</wpt>
+<wpt lat="53.694241607930643" lon="-122.674181519316619">
+  <name>24723695 - mod</name>
+  <desc>bt_rearing - 87km. Large culvert under railway.  Highway crossing upstream which is ranked as a barrier and also an expensive fix.  Close to PG.  </desc>
+</wpt>
+<wpt lat="53.803978492600841" lon="-122.143346658175346">
+  <name>24727190 - mod</name>
+  <desc>bt_rearing - 94.5km. Large watershed with few CBS on mainstem. Should assess this crossing in addition to the downstream Highway 16 crossing. CH documented upstream.</desc>
+</wpt>
+<wpt lat="54.110489192472599" lon="-124.70195349244598">
+  <name>7622 - NA</name>
+  <desc>bt_rearing - 2.1km. NA</desc>
+</wpt>
+</gpx>
