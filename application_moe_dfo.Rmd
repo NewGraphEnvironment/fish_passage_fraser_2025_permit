@@ -344,7 +344,7 @@ table_sites |>
 # here we produce a minimal table to copy paste in the DFO pdf
 formatted_output <- table_sites |> 
   sf::st_drop_geometry() |> 
-  dplyr::select(id, stream_name, wsc_code) |> 
+  dplyr::select(id, stream_name, wsc_code, utm_zone, utm_easting, utm_northing) |> 
   dplyr::mutate(
     max_id_width = max(nchar(id)),
     max_name_width = max(nchar(stream_name), na.rm = TRUE)
