@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
-<Schema name="sites_fraser_2025_20250728" id="sites_fraser_2025_20250728">
+<Schema name="sites_fraser_2025_20250806" id="sites_fraser_2025_20250806">
 	<SimpleField name="id" type="string"></SimpleField>
 	<SimpleField name="bt_network_km" type="float"></SimpleField>
 	<SimpleField name="bt_spawning_km" type="float"></SimpleField>
@@ -22,10 +22,10 @@
 	<SimpleField name="long" type="float"></SimpleField>
 	<SimpleField name="lat" type="float"></SimpleField>
 </Schema>
-<Folder><name>sites_fraser_2025_20250728</name>
+<Folder><name>sites_fraser_2025_20250806</name>
   <Placemark>
 	<name>12200024 - high</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">12200024</SimpleData>
 		<SimpleData name="bt_network_km">0</SimpleData>
 		<SimpleData name="bt_spawning_km">0</SimpleData>
@@ -48,7 +48,7 @@
   </Placemark>
   <Placemark>
 	<name>12202167 - mod</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">12202167</SimpleData>
 		<SimpleData name="bt_network_km">0</SimpleData>
 		<SimpleData name="bt_spawning_km">0</SimpleData>
@@ -70,7 +70,7 @@
   </Placemark>
   <Placemark>
 	<name>126267 - mod</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">126267</SimpleData>
 		<SimpleData name="bt_network_km">43.1</SimpleData>
 		<SimpleData name="bt_spawning_km">11</SimpleData>
@@ -94,7 +94,7 @@
   </Placemark>
   <Placemark>
 	<name>126290 - high</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">126290</SimpleData>
 		<SimpleData name="bt_network_km">503.9</SimpleData>
 		<SimpleData name="bt_spawning_km">83.2</SimpleData>
@@ -118,7 +118,7 @@
   </Placemark>
   <Placemark>
 	<name>126316 - mod</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">126316</SimpleData>
 		<SimpleData name="bt_network_km">340.4</SimpleData>
 		<SimpleData name="bt_spawning_km">69.6</SimpleData>
@@ -142,7 +142,7 @@
   </Placemark>
   <Placemark>
 	<name>196051 - high</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">196051</SimpleData>
 		<SimpleData name="bt_network_km">37.1</SimpleData>
 		<SimpleData name="bt_spawning_km">7</SimpleData>
@@ -165,7 +165,7 @@
   </Placemark>
   <Placemark>
 	<name>196072 - high</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">196072</SimpleData>
 		<SimpleData name="bt_network_km">279.5</SimpleData>
 		<SimpleData name="bt_spawning_km">64.7</SimpleData>
@@ -189,7 +189,7 @@
   </Placemark>
   <Placemark>
 	<name>196085 - high</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">196085</SimpleData>
 		<SimpleData name="bt_network_km">196.9</SimpleData>
 		<SimpleData name="bt_spawning_km">33.9</SimpleData>
@@ -214,7 +214,7 @@
   </Placemark>
   <Placemark>
 	<name>196151 - high</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">196151</SimpleData>
 		<SimpleData name="bt_network_km">270.1</SimpleData>
 		<SimpleData name="bt_spawning_km">60.9</SimpleData>
@@ -239,7 +239,7 @@
   </Placemark>
   <Placemark>
 	<name>196201 - high</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">196201</SimpleData>
 		<SimpleData name="bt_network_km">20.9</SimpleData>
 		<SimpleData name="bt_spawning_km">2.8</SimpleData>
@@ -263,7 +263,7 @@
   </Placemark>
   <Placemark>
 	<name>196207 - mod</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">196207</SimpleData>
 		<SimpleData name="bt_network_km">3.1</SimpleData>
 		<SimpleData name="bt_spawning_km">1.9</SimpleData>
@@ -288,7 +288,7 @@
   </Placemark>
   <Placemark>
 	<name>196264 - mod</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">196264</SimpleData>
 		<SimpleData name="bt_network_km">45.8</SimpleData>
 		<SimpleData name="bt_spawning_km">3.8</SimpleData>
@@ -312,7 +312,7 @@
   </Placemark>
   <Placemark>
 	<name>196328 - mod</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">196328</SimpleData>
 		<SimpleData name="bt_network_km">10.6</SimpleData>
 		<SimpleData name="bt_spawning_km">2</SimpleData>
@@ -336,7 +336,7 @@
   </Placemark>
   <Placemark>
 	<name>196340 - mod</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">196340</SimpleData>
 		<SimpleData name="bt_network_km">6</SimpleData>
 		<SimpleData name="bt_spawning_km">0.3</SimpleData>
@@ -360,7 +360,7 @@
   </Placemark>
   <Placemark>
 	<name>19702777 - high</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">19702777</SimpleData>
 		<SimpleData name="bt_network_km">34</SimpleData>
 		<SimpleData name="bt_spawning_km">3.4</SimpleData>
@@ -382,7 +382,7 @@
   </Placemark>
   <Placemark>
 	<name>19703257 - high</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">19703257</SimpleData>
 		<SimpleData name="bt_network_km">196.4</SimpleData>
 		<SimpleData name="bt_spawning_km">33.4</SimpleData>
@@ -406,7 +406,7 @@
   </Placemark>
   <Placemark>
 	<name>19703286 - high</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">19703286</SimpleData>
 		<SimpleData name="bt_network_km">42.2</SimpleData>
 		<SimpleData name="bt_spawning_km">9.3</SimpleData>
@@ -430,7 +430,7 @@
   </Placemark>
   <Placemark>
 	<name>19703295 - high</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">19703295</SimpleData>
 		<SimpleData name="bt_network_km">30.4</SimpleData>
 		<SimpleData name="bt_spawning_km">3.4</SimpleData>
@@ -452,7 +452,7 @@
   </Placemark>
   <Placemark>
 	<name>19703303 - mod</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">19703303</SimpleData>
 		<SimpleData name="bt_network_km">26.1</SimpleData>
 		<SimpleData name="bt_spawning_km">4.8</SimpleData>
@@ -475,7 +475,7 @@
   </Placemark>
   <Placemark>
 	<name>19703358 - mod</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">19703358</SimpleData>
 		<SimpleData name="bt_network_km">61.5</SimpleData>
 		<SimpleData name="bt_spawning_km">12.1</SimpleData>
@@ -499,7 +499,7 @@
   </Placemark>
   <Placemark>
 	<name>199171 - NA</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">199171</SimpleData>
 		<SimpleData name="bt_network_km">13</SimpleData>
 		<SimpleData name="bt_spawning_km">0</SimpleData>
@@ -507,21 +507,21 @@
 		<SimpleData name="ch_spawning_km">0</SimpleData>
 		<SimpleData name="ch_rearing_km">0</SimpleData>
 		<SimpleData name="utm_zone">10</SimpleData>
-		<SimpleData name="utm_easting">388945</SimpleData>
+		<SimpleData name="utm_easting">388946</SimpleData>
 		<SimpleData name="utm_northing">5997015</SimpleData>
 		<SimpleData name="mapsheet">093K.104</SimpleData>
 		<SimpleData name="watershed_group_code">FRAN</SimpleData>
-		<SimpleData name="pscis_assessment_comment">Very nice stream with good flow and abundant gravels upstream and downstream. Landowner indicated sockeye spotted along shoreline years ago. Massive outlet drop. Deserves habitat confirmation and consideration for replacement if no natural barriers upstream. There is a PSCIS assessed site (assessment_id = 7622) upstream that is a barrier.          MoTi chris_culvert_id: 1790951. 12:12:56</SimpleData>
-		<SimpleData name="stream_name">Tributary To Fraser Lake</SimpleData>
+		<SimpleData name="pscis_assessment_comment">The local name of the stream is Burnt Cabin Creek. A large outlet drop and a heavily eroded outlet pool indicated the culvert was undersized. The stream provided complex habitat with abundant cover. The crossing was located on a low-traffic dirt road with minimal fill, making replacement relatively straightforward. An adjacent landowner reported observing adult sockeye along the shoreline near the confluence of the stream and Fraser Lake in previous years. They also said the stream is reported to flow year-round, even in dry conditions, fed by a spring at the headwaters, and that the section of stream below Gala Bay Road has been diverted to accommodate a driveway for a recreational property. MoTi chris_culvert_id: 1790951</SimpleData>
+		<SimpleData name="stream_name">Burnt Cabin Creek</SimpleData>
 		<SimpleData name="wsc_code">180-374000-33800-00000-0000-0000-000-000-000-000-000-000</SimpleData>
-		<SimpleData name="long">-124.698749407168</SimpleData>
-		<SimpleData name="lat">54.1092828684189</SimpleData>
+		<SimpleData name="long">-124.698734081209</SimpleData>
+		<SimpleData name="lat">54.1092826304144</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-124.698749407168,54.1092828684189</coordinates></Point>
+      <Point><coordinates>-124.698734081209,54.1092826304144</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>199172 - NA</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">199172</SimpleData>
 		<SimpleData name="bt_network_km">16.4</SimpleData>
 		<SimpleData name="bt_spawning_km">1</SimpleData>
@@ -530,20 +530,20 @@
 		<SimpleData name="ch_rearing_km">0</SimpleData>
 		<SimpleData name="utm_zone">10</SimpleData>
 		<SimpleData name="utm_easting">388276</SimpleData>
-		<SimpleData name="utm_northing">5996951</SimpleData>
+		<SimpleData name="utm_northing">5996950</SimpleData>
 		<SimpleData name="mapsheet">093K.104</SimpleData>
 		<SimpleData name="watershed_group_code">FRAN</SimpleData>
-		<SimpleData name="pscis_assessment_comment">Very nice little stream with excellent flow for this time of year on a dry year. Crossing downstream on Gala Bay Road was fully embedded and passible at the time of the assessment. There is a historic chinook observation within this stream. This could be valuable Chinook rearing habitat and connectivity within the system should be restored, should no natural barriers be observed on a habitat confirmation assessment.            MoTi chris_culvert_id: 1794198, 1794199. 12:47:26</SimpleData>
+		<SimpleData name="pscis_assessment_comment">The culvert was very undersized for the stream, as indicated by the large outlet drop. The stream had a good amount of given the time of year and uncharacteristically dry year. Habitat was of medium value, with abundant large woody debris creating complex habitat and pools, providing ample cover for fish. Adjacent landowners reported that the stream was previously used as a water source for bottling and distribution across the province. Habitat confirmations were completed upstream and downstream of Stella Road as well as below Gala Bay Road.  The local name of the stream is Scotch Creek. MoTi chris_culvert_id: 1794199</SimpleData>
 		<SimpleData name="stream_name">Scotch Creek</SimpleData>
 		<SimpleData name="wsc_code">180-374000-36600-00000-0000-0000-000-000-000-000-000-000</SimpleData>
-		<SimpleData name="long">-124.708956286779</SimpleData>
-		<SimpleData name="lat">54.1085647174169</SimpleData>
+		<SimpleData name="long">-124.708950505893</SimpleData>
+		<SimpleData name="lat">54.1085564190879</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-124.708956286779,54.1085647174169</coordinates></Point>
+      <Point><coordinates>-124.708950505893,54.1085564190879</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>199173 - NA</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">199173</SimpleData>
 		<SimpleData name="bt_network_km">42.7</SimpleData>
 		<SimpleData name="bt_spawning_km">4</SimpleData>
@@ -551,68 +551,68 @@
 		<SimpleData name="ch_spawning_km">0</SimpleData>
 		<SimpleData name="ch_rearing_km">0</SimpleData>
 		<SimpleData name="utm_zone">10</SimpleData>
-		<SimpleData name="utm_easting">398947</SimpleData>
-		<SimpleData name="utm_northing">5996427</SimpleData>
+		<SimpleData name="utm_easting">398938</SimpleData>
+		<SimpleData name="utm_northing">5996429</SimpleData>
 		<SimpleData name="mapsheet">093K.104</SimpleData>
 		<SimpleData name="watershed_group_code">NECR</SimpleData>
-		<SimpleData name="pscis_assessment_comment">Very nice stream with excellent flow for this time of year on a dry year.  Very large deep outlet pool with extensive erosion undercutting the main pipe and 0.6 m overflow. Locally known as Dog Creek. Chinook captured upstream and downstream of Dog Creek FSR in 2021, 2022, and 2023 reported here https://a100.gov.bc.ca/pub/acat/public/viewReport.do?reportId=62942.  Connected to the Nechako River with observed chinook points downstream adjacent to the confluence. Road edge is failing at the culvert and eroding into stream. Highly degraded site upstream that would be a good candidate for restoration.       MoTi chris_culvert_id: 1794340. 13:43:26</SimpleData>
+		<SimpleData name="pscis_assessment_comment">The culvert had a moderate outlet drop with some erosion around the pipe at the outlet. The pipe was in good condition. The stream provided excellent habitat, with several pools and abundant undercut banks. Fish were observed during the assessment (~40-90mm in length), and chinook have been captured upstream of this crossing as part of an ongoing environmental DNA (eDNA) project led by Dr. Brent Murray and Barry Booth at UNBC. Upstream of the crossing, the stream was channelized with some pockets of gravel suitable for rearing rainbow trout and potentially chinook. It then transitioned into beaver-impounded wetland areas storing large quantities of water, likely sustaining year-round stream flow at this crossing. There was extensive cattle trampling around the inlet of the pipe and throughout the surveyed upstream area. The crossing was located approximately 150m upstream from the Nechako River mainstem. The lower 200m of the stream is incorrectly mapped in the BC Freshwater Atlas. Instead of flowing east along Dog Creek Road as mapped, the stream flows south, crosses Dog Creek Road, and joins the Nechako River. MoTi chris_culvert_id: 1794340</SimpleData>
 		<SimpleData name="stream_name">Tributary To Nechako River</SimpleData>
 		<SimpleData name="observedspp_upstr">SP</SimpleData>
 		<SimpleData name="wsc_code">180-364700-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
-		<SimpleData name="long">-124.545617589056</SimpleData>
-		<SimpleData name="lat">54.1060660536439</SimpleData>
+		<SimpleData name="long">-124.545753078501</SimpleData>
+		<SimpleData name="lat">54.1060812804868</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-124.545617589056,54.1060660536439</coordinates></Point>
+      <Point><coordinates>-124.545753078501,54.1060812804868</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>199190 - NA</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">199190</SimpleData>
 		<SimpleData name="bt_network_km">105.9</SimpleData>
 		<SimpleData name="bt_spawning_km">10.2</SimpleData>
 		<SimpleData name="bt_rearing_km">28.8</SimpleData>
-		<SimpleData name="ch_spawning_km">4.36768455659229</SimpleData>
-		<SimpleData name="ch_rearing_km">6.17255275881086</SimpleData>
+		<SimpleData name="ch_spawning_km">4.34368455659221</SimpleData>
+		<SimpleData name="ch_rearing_km">6.14855275881078</SimpleData>
 		<SimpleData name="utm_zone">10</SimpleData>
-		<SimpleData name="utm_easting">425559</SimpleData>
-		<SimpleData name="utm_northing">5996140</SimpleData>
+		<SimpleData name="utm_easting">425562</SimpleData>
+		<SimpleData name="utm_northing">5996164</SimpleData>
 		<SimpleData name="mapsheet">093K.105</SimpleData>
 		<SimpleData name="watershed_group_code">NECR</SimpleData>
-		<SimpleData name="pscis_assessment_comment">High value habitat, wide channel with good flow and gravels. Known chinook system downstream. Culvert is very damaged near outlet. There are holes on bottom of pipe about 5m from outlet where water is running through and under the pipe. Culvert is angled down near outlet.  Good candidate for replacement.   MoTi chris_culvert_id: 1806163. 12:15:10</SimpleData>
+		<SimpleData name="pscis_assessment_comment">The bottom of the culvert had been reinforced with concrete, likely to address holes noted in the previous assessment. A large pile of riprap was placed at the outlet, possibly to reduce the outlet drop, though its placement appeared unusual and could inhibit fish passage. The habitat was high quality, with a large pool just downstream of the culvert and abundant gravels suitable for spawning fish. In the lower section of Clear Creek, downstream of Braeside Road, chinook salmon have been repeatedly documented through sampling efforts part of an ongoing environmental DNA (eDNA) project led by Dr. Brent Murray and Barry Booth at UNBC.  MoTi chris_culvert_id: 1806163</SimpleData>
 		<SimpleData name="stream_name">Clear Creek</SimpleData>
 		<SimpleData name="observedspp_upstr">LKC;LSU</SimpleData>
 		<SimpleData name="wsc_code">180-296000-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
-		<SimpleData name="long">-124.138619053657</SimpleData>
-		<SimpleData name="lat">54.1080262700102</SimpleData>
+		<SimpleData name="long">-124.13857182395</SimpleData>
+		<SimpleData name="lat">54.1082389262788</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-124.138619053657,54.1080262700102</coordinates></Point>
+      <Point><coordinates>-124.13857182395,54.1082389262788</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>199237 - NA</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">199237</SimpleData>
 		<SimpleData name="bt_network_km">80.6</SimpleData>
 		<SimpleData name="bt_spawning_km">17.7</SimpleData>
 		<SimpleData name="bt_rearing_km">25.2</SimpleData>
-		<SimpleData name="ch_spawning_km">12.2308706828919</SimpleData>
-		<SimpleData name="ch_rearing_km">22.2878688735162</SimpleData>
+		<SimpleData name="ch_spawning_km">12.2358706828919</SimpleData>
+		<SimpleData name="ch_rearing_km">22.2928688735162</SimpleData>
 		<SimpleData name="utm_zone">10</SimpleData>
-		<SimpleData name="utm_easting">650784</SimpleData>
-		<SimpleData name="utm_northing">5934858</SimpleData>
+		<SimpleData name="utm_easting">650785</SimpleData>
+		<SimpleData name="utm_northing">5934863</SimpleData>
 		<SimpleData name="mapsheet">093H.114</SimpleData>
 		<SimpleData name="watershed_group_code">MORK</SimpleData>
-		<SimpleData name="pscis_assessment_comment">High value spawning and rearing habitat upstream.  Massive outlet pool with erosion indicates culvert is extremely under sized.   Candy et al 2002 notes chinoook spawning in this system.   MoTi chris_hwy_structure_road_id: 3751. 17:54:33</SimpleData>
+		<SimpleData name="pscis_assessment_comment">The culvert had a deep outlet pool and a very large outlet drop. The stream contained functional large woody debris creating complex cover and pools.No photos are available because the surveyors phone fell into the stream. Fill depth estimated.  MoTi chris_hwy_structure_road_id: 3751</SimpleData>
 		<SimpleData name="stream_name">Snowshoe Creek</SimpleData>
 		<SimpleData name="observedspp_upstr">EB;LKC;RB;RSC;ST</SimpleData>
 		<SimpleData name="wsc_code">100-770300-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
-		<SimpleData name="long">-120.724481094733</SimpleData>
-		<SimpleData name="lat">53.5409495405422</SimpleData>
+		<SimpleData name="long">-120.72445807403</SimpleData>
+		<SimpleData name="lat">53.5409921110659</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-120.724481094733,53.5409495405422</coordinates></Point>
+      <Point><coordinates>-120.72445807403,53.5409921110659</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>199260 - NA</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">199260</SimpleData>
 		<SimpleData name="bt_network_km">4.2</SimpleData>
 		<SimpleData name="bt_spawning_km">0</SimpleData>
@@ -621,66 +621,66 @@
 		<SimpleData name="ch_rearing_km">0</SimpleData>
 		<SimpleData name="utm_zone">10</SimpleData>
 		<SimpleData name="utm_easting">587921</SimpleData>
-		<SimpleData name="utm_northing">5972449</SimpleData>
+		<SimpleData name="utm_northing">5972451</SimpleData>
 		<SimpleData name="mapsheet">093H.121</SimpleData>
 		<SimpleData name="watershed_group_code">MORK</SimpleData>
-		<SimpleData name="pscis_assessment_comment">Large stream with abundant gravels present upstream suitable for spawning. Massive outlet drop with powerline riparian cleared downstream of the highway.   Old growth cedar hemlock riparian within Sugar bowl grizzly den provincial park. Follow up with habitat confirmation recommended.                  MoTi chris_culvert_id: 1992815. 11:30:20</SimpleData>
+		<SimpleData name="pscis_assessment_comment">The culvert had a significant 1.4m outlet drop, and inlet drop due to a small debris jam. The stream flowed through mature old-growth forest and provided high-quality habitat with steep gradients, step pools, and cascade pools, suggesting the potential presence of bull trout. The highway crossing had a large amount of road fill, making construction difficult and expensive. The site would be a good candidate for replacement if feasible. The riparian area at the outlet had been cleared due to overhead powerlines. MoTi chris_culvert_id: 1992815</SimpleData>
 		<SimpleData name="stream_name">Tributary To Sugarbowl Creek</SimpleData>
 		<SimpleData name="wsc_code">100-683800-01900-12800-0000-0000-000-000-000-000-000-000</SimpleData>
-		<SimpleData name="long">-121.662096982754</SimpleData>
-		<SimpleData name="lat">53.8930222173636</SimpleData>
+		<SimpleData name="long">-121.662102518744</SimpleData>
+		<SimpleData name="lat">53.8930398344384</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-121.662096982754,53.8930222173636</coordinates></Point>
+      <Point><coordinates>-121.662102518744,53.8930398344384</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>199267 - NA</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">199267</SimpleData>
 		<SimpleData name="bt_network_km">51.4</SimpleData>
 		<SimpleData name="bt_spawning_km">8.8</SimpleData>
 		<SimpleData name="bt_rearing_km">12.5</SimpleData>
-		<SimpleData name="ch_spawning_km">6.94537776545152</SimpleData>
-		<SimpleData name="ch_rearing_km">8.22710095551684</SimpleData>
+		<SimpleData name="ch_spawning_km">6.94437776545153</SimpleData>
+		<SimpleData name="ch_rearing_km">8.22610095551684</SimpleData>
 		<SimpleData name="utm_zone">10</SimpleData>
 		<SimpleData name="utm_easting">606373</SimpleData>
-		<SimpleData name="utm_northing">5965784</SimpleData>
+		<SimpleData name="utm_northing">5965783</SimpleData>
 		<SimpleData name="mapsheet">093H.122</SimpleData>
 		<SimpleData name="watershed_group_code">MORK</SimpleData>
-		<SimpleData name="pscis_assessment_comment">Big beaver dam near inlet of culvert spanning across whole channel approx 1.2m high.  Boulders in pipe near inlet creating small drop and increasing velocity.  Channel widens downstream, high value habitat. RB and CCG confirmed upstream and downstream with chinook observed way downstream at mouth.    Low gradient upstream and downsteram with decent outlet drop so resampling to determine chinook presence could be insightful. MoTi chris_culvert_id: 1992674. 14:54:00</SimpleData>
+		<SimpleData name="pscis_assessment_comment">The culvert had a deep outlet pool and a very large outlet drop. The stream was banked with a well-developed, healthy, riparian zone consisting of old-growth forest. A beaver dam was located just upstream of the culvert inlet. No photos are available because the surveyors phone fell into the stream.  MoTi chris_culvert_id: 1992674</SimpleData>
 		<SimpleData name="stream_name">Driscoll Creek</SimpleData>
 		<SimpleData name="observedspp_upstr">CCG;RB</SimpleData>
 		<SimpleData name="wsc_code">100-698700-00000-00000-0000-0000-000-000-000-000-000-000</SimpleData>
-		<SimpleData name="long">-121.383731517418</SimpleData>
-		<SimpleData name="lat">53.8296895156403</SimpleData>
+		<SimpleData name="long">-121.383734620048</SimpleData>
+		<SimpleData name="lat">53.8296807431046</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-121.383731517418,53.8296895156403</coordinates></Point>
+      <Point><coordinates>-121.383734620048,53.8296807431046</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>199278 - NA</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">199278</SimpleData>
-		<SimpleData name="bt_network_km">2.2</SimpleData>
+		<SimpleData name="bt_network_km">2.1</SimpleData>
 		<SimpleData name="bt_spawning_km">0</SimpleData>
 		<SimpleData name="bt_rearing_km">0.5</SimpleData>
 		<SimpleData name="ch_spawning_km">0</SimpleData>
 		<SimpleData name="ch_rearing_km">0</SimpleData>
 		<SimpleData name="utm_zone">11</SimpleData>
-		<SimpleData name="utm_easting">344022</SimpleData>
-		<SimpleData name="utm_northing">5862734</SimpleData>
+		<SimpleData name="utm_easting">344034</SimpleData>
+		<SimpleData name="utm_northing">5862741</SimpleData>
 		<SimpleData name="mapsheet">083D.122</SimpleData>
 		<SimpleData name="watershed_group_code">UFRA</SimpleData>
-		<SimpleData name="pscis_assessment_comment">Very nice stream with salmon point in FISS located upstream. Very good flow with some pools present to 80cm deep upstream. Unassessed railway crossing approximately 200m upstream.  There is no crossing at the pipeline but construction activities have resulted in a small cascade of boulders at the pipe which is similar to the natural cascade section observed approximately 50m upstream.  Railway crossing downstream which is ranked as a barrier.          MoTi chris_culvert_id: 1467202. 12:56:09</SimpleData>
+		<SimpleData name="pscis_assessment_comment">A moderate outlet drop was present and would be substantial at lower flows. Flow was steady at the time of assessment. The culvert was in good condition. A large, deep outlet pool indicated the culvert was likely undersized for the stream. Additionally, minimal road fill made this crossing a significant flood hazard, which could wash out Highway 5. Downstream, the stream had frequent pools 0.3-0.5m deep, providing good overwintering habitat for fish, and abundant gravels suitable for spawning. Roughly 150m downstream of the culvert, several cattle pens crossed the stream and appeared to be set up to provide cattle access for drinking. These areas were visibly trampled, with significant loss of riparian vegetation. Upstream, the stream was relatively confined, with only rare pockets of unembedded gravels. Deep pools were present, formed by boulder and large woody debris scour.  Numerous small steps, ranging from 30-60cm, were present due to the steep, boulder-dominated nature of the stream. A salmon point was noted near the pipeline location in FISS. Bull trout have previously been captured both upstream and downstream of the highway crossing by Triton Environmental Consultants Ltd. Electrofishing would be beneficial for further assessment. The site was a highway crossing, making replacement difficult.  Upstream of the Mount Tinsley Pit Road crossing, a hiking trail follows Teepee Creek and provides access to Mount Terry Fox Provincial Park. MoTi chris_culvert_id: 1467202</SimpleData>
 		<SimpleData name="stream_name">Teepee Creek</SimpleData>
 		<SimpleData name="observedspp_upstr">SA</SimpleData>
 		<SimpleData name="wsc_code">100-907400-42800-00000-0000-0000-000-000-000-000-000-000</SimpleData>
-		<SimpleData name="long">-119.318569473404</SimpleData>
-		<SimpleData name="lat">52.8916383283705</SimpleData>
+		<SimpleData name="long">-119.318405018675</SimpleData>
+		<SimpleData name="lat">52.8917071477336</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-119.318569473404,52.8916383283705</coordinates></Point>
+      <Point><coordinates>-119.318405018675,52.8917071477336</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>24400646 - mod</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">24400646</SimpleData>
 		<SimpleData name="bt_network_km">11.6</SimpleData>
 		<SimpleData name="bt_spawning_km">2.3</SimpleData>
@@ -704,7 +704,7 @@
   </Placemark>
   <Placemark>
 	<name>24401504 - mod</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">24401504</SimpleData>
 		<SimpleData name="bt_network_km">23</SimpleData>
 		<SimpleData name="bt_spawning_km">2.8</SimpleData>
@@ -727,7 +727,7 @@
   </Placemark>
   <Placemark>
 	<name>24401692 - mod</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">24401692</SimpleData>
 		<SimpleData name="bt_network_km">28.3</SimpleData>
 		<SimpleData name="bt_spawning_km">7.1</SimpleData>
@@ -749,7 +749,7 @@
   </Placemark>
   <Placemark>
 	<name>24402183 - mod</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">24402183</SimpleData>
 		<SimpleData name="bt_network_km">14.4</SimpleData>
 		<SimpleData name="bt_spawning_km">4.2</SimpleData>
@@ -771,7 +771,7 @@
   </Placemark>
   <Placemark>
 	<name>24723694 - high</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">24723694</SimpleData>
 		<SimpleData name="bt_network_km">282.5</SimpleData>
 		<SimpleData name="bt_spawning_km">67</SimpleData>
@@ -795,7 +795,7 @@
   </Placemark>
   <Placemark>
 	<name>24723695 - mod</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">24723695</SimpleData>
 		<SimpleData name="bt_network_km">254.1</SimpleData>
 		<SimpleData name="bt_spawning_km">39.6</SimpleData>
@@ -819,7 +819,7 @@
   </Placemark>
   <Placemark>
 	<name>24727190 - mod</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">24727190</SimpleData>
 		<SimpleData name="bt_network_km">248.3</SimpleData>
 		<SimpleData name="bt_spawning_km">53.7</SimpleData>
@@ -843,11 +843,11 @@
   </Placemark>
   <Placemark>
 	<name>7622 - NA</name>
-	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250728">
+	<ExtendedData><SchemaData schemaUrl="#sites_fraser_2025_20250806">
 		<SimpleData name="id">7622</SimpleData>
 		<SimpleData name="bt_network_km">11.8</SimpleData>
 		<SimpleData name="bt_spawning_km">0</SimpleData>
-		<SimpleData name="bt_rearing_km">2.1</SimpleData>
+		<SimpleData name="bt_rearing_km">2</SimpleData>
 		<SimpleData name="ch_spawning_km">0</SimpleData>
 		<SimpleData name="ch_rearing_km">0</SimpleData>
 		<SimpleData name="utm_zone">10</SimpleData>
@@ -855,13 +855,13 @@
 		<SimpleData name="utm_northing">5997154</SimpleData>
 		<SimpleData name="mapsheet">093K.104</SimpleData>
 		<SimpleData name="watershed_group_code">FRAN</SimpleData>
-		<SimpleData name="pscis_assessment_comment">Pipe is a potential barrier to fish passage - failed threshold for length, gradient, not embedded, constricted inlet, Inlet drop, and outlet drop. There are bars vertically agains the inlet and the sies of the stream are eroding around them.</SimpleData>
-		<SimpleData name="stream_name">Unn Flows Into Fraser Lake</SimpleData>
+		<SimpleData name="pscis_assessment_comment">The culvert is undersized for current flow volumes, as indicated by the 1.15m outlet drop. The local name of the stream is Burnt Cabin Creek. A landowner adjacent to the crossing downstream on Gala Bay Road (PSCIS 199171) reported observing adult sockeye along the shoreline near the confluence with Fraser Lake in past years, and noted that the stream flows year-round, even in dry conditions, fed by a spring at the headwaters. Habitat confirmations were completed upstream, downstream, and below Gala Bay Road. MoTi chris_culvert_id: 1794196</SimpleData>
+		<SimpleData name="stream_name">Burnt Cabin Creek</SimpleData>
 		<SimpleData name="wsc_code">180-374000-33800-00000-0000-0000-000-000-000-000-000-000</SimpleData>
-		<SimpleData name="long">-124.701953492446</SimpleData>
-		<SimpleData name="lat">54.1104891924726</SimpleData>
+		<SimpleData name="long">-124.701965783625</SimpleData>
+		<SimpleData name="lat">54.110494548179</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-124.701953492446,54.1104891924726</coordinates></Point>
+      <Point><coordinates>-124.701965783625,54.110494548179</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

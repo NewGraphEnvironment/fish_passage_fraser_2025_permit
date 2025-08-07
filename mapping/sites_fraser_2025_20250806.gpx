@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 3.8.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata>
-<bounds minlat="52.891638328370519" minlon="-124.708956286779468" maxlat="54.145007293546385" maxlon="-119.318569473403784"/>                                   
+<bounds minlat="52.891707147733612" minlon="-124.708950505893128" maxlat="54.145007293546385" maxlon="-119.318405018675307"/>                                   
 </metadata>
 <wpt lat="54.05624829908075" lon="-122.764614999953793">
   <name>12200024 - high</name>
@@ -83,35 +83,35 @@
   <name>19703358 - mod</name>
   <desc>bt_rearing - 17.4km. Several other major CBS upstream.  CH caprured near the confluence of this stream and the Fraser River. </desc>
 </wpt>
-<wpt lat="54.109282868418909" lon="-124.698749407167611">
+<wpt lat="54.109282630414413" lon="-124.698734081208599">
   <name>199171 - NA</name>
   <desc>bt_rearing - 2.3km. NA</desc>
 </wpt>
-<wpt lat="54.108564717416854" lon="-124.708956286779468">
+<wpt lat="54.108556419087925" lon="-124.708950505893128">
   <name>199172 - NA</name>
   <desc>bt_rearing - 1.6km. NA</desc>
 </wpt>
-<wpt lat="54.106066053643872" lon="-124.545617589056263">
+<wpt lat="54.106081280486784" lon="-124.545753078501477">
   <name>199173 - NA</name>
   <desc>bt_rearing - 6.2km. NA</desc>
 </wpt>
-<wpt lat="54.108026270010242" lon="-124.138619053657152">
+<wpt lat="54.108238926278759" lon="-124.138571823949675">
   <name>199190 - NA</name>
   <desc>bt_rearing - 28.8km. NA</desc>
 </wpt>
-<wpt lat="53.540949540542151" lon="-120.724481094732852">
+<wpt lat="53.54099211106594" lon="-120.72445807402994">
   <name>199237 - NA</name>
   <desc>bt_rearing - 25.2km. NA</desc>
 </wpt>
-<wpt lat="53.893022217363615" lon="-121.662096982753766">
+<wpt lat="53.893039834438397" lon="-121.662102518743595">
   <name>199260 - NA</name>
   <desc>bt_rearing - 0.9km. NA</desc>
 </wpt>
-<wpt lat="53.829689515640275" lon="-121.383731517417928">
+<wpt lat="53.829680743104618" lon="-121.383734620047903">
   <name>199267 - NA</name>
   <desc>bt_rearing - 12.5km. NA</desc>
 </wpt>
-<wpt lat="52.891638328370519" lon="-119.318569473403784">
+<wpt lat="52.891707147733612" lon="-119.318405018675307">
   <name>199278 - NA</name>
   <desc>bt_rearing - 0.5km. NA</desc>
 </wpt>
@@ -143,8 +143,8 @@
   <name>24727190 - mod</name>
   <desc>bt_rearing - 94.5km. Large watershed with few CBS on mainstem. Should assess this crossing in addition to the downstream Highway 16 crossing. CH documented upstream.</desc>
 </wpt>
-<wpt lat="54.110489192472599" lon="-124.70195349244598">
+<wpt lat="54.110494548179048" lon="-124.701965783625127">
   <name>7622 - NA</name>
-  <desc>bt_rearing - 2.1km. NA</desc>
+  <desc>bt_rearing - 2km. NA</desc>
 </wpt>
 </gpx>

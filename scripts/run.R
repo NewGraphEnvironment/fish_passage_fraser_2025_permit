@@ -21,17 +21,17 @@ staticimports::import()
   page_map <- 5
   page_site_list <- 6:12
 
-  input_pdf <- fs::path("docs", paste0(name_memo, ".pdf"))
+  input_pdf <- fs::path("docs", name_memo, ext = ".pdf")
 
   pdftools::pdf_subset(
     input = input_pdf,
     pages = page_map,
-    output = fs::path("docs", "application_dfo_map.pdf")
+    output = fs::path("docs", name_memo, ext = ".pdf")
   )
 
   pdftools::pdf_subset(
     input = input_pdf,
     pages = page_site_list,
-    output = fs::path("docs", "application_dfo_site_list.pdf")
+    output = fs::path("docs", "application_dfo_site_list", ext = ".pdf")
   )
 }
